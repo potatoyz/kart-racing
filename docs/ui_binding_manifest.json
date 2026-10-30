@@ -1,0 +1,34 @@
+{
+  "contract": "../mechanic_contract.json",
+  "query": "snapshot",
+  "command": "command",
+  "events": "event_emitted",
+  "screens": [
+    "garage",
+    "hud",
+    "pause",
+    "results",
+    "map_select"
+  ],
+  "layout": "layout.json",
+  "contract_version": 4,
+  "technique_state": "cars[].tricks",
+  "technique_command": "small_boost",
+  "visual_state": [
+    "cars[].visual_position",
+    "cars[].visual_yaw"
+  ],
+  "maps_v11": {
+    "select_track": "command(select_track, {track_id})",
+    "catalog": "track_catalog",
+    "selected": "selected_track_id",
+    "current": "track",
+    "records": "best_by_track",
+    "lap": "cars[].lap / lap_count",
+    "events": [
+      "track_changed"
+    ],
+    "layout": "layout_maps_v11.json",
+    "native_input_qa": "project/tests/maps_ui.gd"
+  }
+}

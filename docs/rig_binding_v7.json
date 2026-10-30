@@ -1,0 +1,66 @@
+{
+  "rigging": {
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "geometry": {
+      "section_resolution": 25,
+      "section_vertex_tolerance": 1e-10,
+      "section_plane_nudge": 1e-09,
+      "section_weld_tolerance": 1e-08,
+      "clearance_chunk_size": 256,
+      "prior_distance_gain": 20.0,
+      "open_quantiles": [
+        0.1,
+        0.9
+      ],
+      "min_open_endpoints": 4,
+      "epsilon": 1e-12
+    },
+    "reconstruction": {
+      "max_reprojection_pixels": 8.0,
+      "max_fitted_reprojection_pixels": 3.0,
+      "max_condition": 100.0,
+      "axis_tolerance": 1e-08,
+      "conflict_policy": "retain_annotation"
+    }
+  },
+  "fit": {
+    "radius": [
+      0.09,
+      0.03,
+      0.09
+    ],
+    "axis": 1,
+    "strength": 1.0,
+    "allow_open": true
+  },
+  "skinning": {
+    "kernel": "gaussian",
+    "falloff": 4.0,
+    "radius_scale": 0.34,
+    "max_influences": 4,
+    "floor": 0.0001,
+    "smooth_iterations": 0,
+    "smooth_rate": 0.6,
+    "bone_convention": "outgoing",
+    "distance_epsilon_ratio": 1e-06,
+    "sum_tolerance": 1e-09,
+    "screening": 0.25,
+    "edge_epsilon_ratio": 1e-06
+  },
+  "regions": {
+    "opposite_arm_threshold": 0.05,
+    "arm_min_side": 0.135,
+    "arm_min_y": -0.09,
+    "arm_min_x": -0.45,
+    "isolated_arm_min_x": -0.27,
+    "arm_bias": 3.0,
+    "glove_wrist_offset_x": 0.015,
+    "helmet_min_y": 0.145,
+    "helmet_max_x": -0.2
+  },
+  "leaf_tail_length": 0.065
+}

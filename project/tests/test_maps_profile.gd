@@ -1,0 +1,33 @@
+extends RefCounted
+const Race=preload("res://mechanic/race.gd")
+var failures:Array[String]=[]
+func expect(ok:bool,message:String)->void:
+	if not ok:failures.append(message)
+func run_test()->Dictionary:
+	var path:="user://maps_profile_%s.cfg"%Time.get_ticks_usec()
+	var old:=ConfigFile.new()
+	old.set_value("profile","car",2);old.set_value("profile","outfit",1)
+	old.set_value("profile","muted",true);old.set_value("profile","reduced_motion",false)
+	old.set_value("profile","best",{"speed":67.5,"item":82.7})
+	old.save(path)
+	var race=Race.new();race.profile_path=path;race.load_profile()
+	expect(race.selected_track_id=="sunny_coast" and race.best.speed==67.5,"legacy record belongs to coast")
+	expect(race.selected_car==2 and race.selected_outfit==1 and race.muted and not race.reduced_motion,"legacy equipment and settings retained")
+	expect(race.best_by_track.harbor_loop.speed==0.0 and race.best_by_track.ridge_hairpins.item==0.0,"new maps begin without inherited records")
+	race.select_track("harbor_loop");race.best={"speed":101.2,"item":123.4};race.save_profile()
+	race.select_track("ridge_hairpins");race.best={"speed":155.0,"item":167.0};race.save_profile()
+	var loaded=Race.new();loaded.profile_path=path;loaded.load_profile()
+	expect(loaded.selected_track_id=="ridge_hairpins" and loaded.best.item==167.0,"map selection and per-mode record roundtrip")
+	expect(loaded.best_by_track.sunny_coast.speed==67.5 and loaded.best_by_track.harbor_loop.speed==101.2,"map records isolated")
+	loaded.load_profile()
+	expect(loaded.best_by_track.harbor_loop.item==123.4,"migration is idempotent")
+	var corrupted:=ConfigFile.new();corrupted.load(path)
+	corrupted.set_value("profile","selected_track_id","unknown_map")
+	corrupted.set_value("profile","best_by_track",{"sunny_coast":{"speed":-10,"item":"bad"},"harbor_loop":{"speed":999.0,"item":Vector3.ZERO}})
+	corrupted.save(path)
+	var fallback=Race.new();fallback.profile_path=path;fallback.load_profile()
+	expect(fallback.selected_track_id=="sunny_coast" and fallback.best.speed==0.0 and fallback.best.item==0.0,"unknown map and corrupt values fail safely")
+	expect(fallback.best_by_track.harbor_loop.speed==999.0 and fallback.best_by_track.harbor_loop.item==0.0,"valid sibling record survives corruption")
+	race.free();loaded.free();fallback.free()
+	DirAccess.remove_absolute(ProjectSettings.globalize_path(path))
+	return {"ok":failures.is_empty(),"message":"; ".join(failures)}

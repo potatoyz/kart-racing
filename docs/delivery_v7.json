@@ -1,0 +1,13 @@
+{
+  "source_package": "sunny_drift_rig_v7_source.zip",
+  "bytes": 140449534,
+  "sha256": "6eef165d56bb01a1ebb281fc368f00cccff061e1ffbff7779b7cf74c1324320e",
+  "native_test_groups": 11,
+  "python_tests_passed": 87,
+  "rig_combinations": 9,
+  "full_race": true,
+  "ui": true,
+  "rig_bones_per_character": 21,
+  "blender_version": "4.5.12",
+  "cli_rebuild_weights_identical": true
+}

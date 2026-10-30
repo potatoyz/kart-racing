@@ -1,0 +1,1093 @@
+{
+  "provider": "mivo",
+  "run_id": "20261026_visual_v6",
+  "assets": [
+    {
+      "task_id": "beach_hut",
+      "task_kind": "3d_object",
+      "model": "Mivo3DModel",
+      "model_call": {
+        "task_id": "6aded4d7d0297c01d014c04b",
+        "cached": false,
+        "capability": "model3d.tripo",
+        "model": "P1",
+        "elapsed_sec": 145.672,
+        "credits": null,
+        "bytes": 8611372,
+        "triangles": 3387,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "images": 3,
+        "nodes": 1,
+        "generator": "https://tripo3d.ai"
+      },
+      "prompt": null,
+      "source_image": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\image\\beach_hut\\image.png",
+      "game_preparation": {
+        "texture_limit": 1024,
+        "source_preserved": true,
+        "wheels": [],
+        "summary": {
+          "bytes": 3171844,
+          "triangles": 3387,
+          "meshes": 1,
+          "materials": 1,
+          "textures": 3,
+          "images": 3,
+          "nodes": 1,
+          "generator": "https://github.com/mikedh/trimesh"
+        }
+      }
+    },
+    {
+      "task_id": "car_0",
+      "task_kind": "3d_object",
+      "model": "Mivo3DModel",
+      "model_call": {
+        "task_id": "6adecfccd0297c01d014c032",
+        "cached": false,
+        "capability": "model3d.tripo",
+        "model": "P1",
+        "elapsed_sec": 99.313,
+        "credits": null,
+        "bytes": 8495976,
+        "triangles": 7645,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "images": 3,
+        "nodes": 1,
+        "generator": "https://tripo3d.ai"
+      },
+      "prompt": null,
+      "source_image": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\image\\car_0\\image.png",
+      "game_preparation": {
+        "texture_limit": 1536,
+        "source_preserved": true,
+        "wheels": [
+          {
+            "name": "WheelFrontLeft",
+            "center": [
+              0.259765,
+              -0.04687500000000001,
+              0.206055
+            ],
+            "radius": 0.11035500000000001,
+            "faces": 782
+          },
+          {
+            "name": "WheelRearLeft",
+            "center": [
+              -0.297855,
+              -0.04883,
+              0.172855
+            ],
+            "radius": 0.11034999999999999,
+            "faces": 824
+          },
+          {
+            "name": "WheelFrontRight",
+            "center": [
+              0.262695,
+              -0.04687500000000001,
+              -0.206055
+            ],
+            "radius": 0.11035500000000001,
+            "faces": 759
+          },
+          {
+            "name": "WheelRearRight",
+            "center": [
+              -0.295895,
+              -0.049804999999999995,
+              -0.180665
+            ],
+            "radius": 0.109375,
+            "faces": 767
+          }
+        ],
+        "summary": {
+          "bytes": 6586184,
+          "triangles": 7645,
+          "meshes": 5,
+          "materials": 1,
+          "textures": 3,
+          "images": 3,
+          "nodes": 9,
+          "generator": "https://github.com/mikedh/trimesh"
+        }
+      }
+    },
+    {
+      "task_id": "car_1",
+      "task_kind": "3d_object",
+      "model": "Mivo3DModel",
+      "model_call": {
+        "task_id": "6aded0aa2c42a6bafa14d2d7",
+        "cached": false,
+        "capability": "model3d.tripo",
+        "model": "P1",
+        "elapsed_sec": 119.875,
+        "credits": null,
+        "bytes": 10146064,
+        "triangles": 7529,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "images": 3,
+        "nodes": 1,
+        "generator": "https://tripo3d.ai"
+      },
+      "prompt": null,
+      "source_image": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\image\\car_1\\image.png",
+      "game_preparation": {
+        "texture_limit": 1536,
+        "source_preserved": true,
+        "wheels": [
+          {
+            "name": "WheelFrontLeft",
+            "center": [
+              0.251955,
+              -0.07617499999999999,
+              0.21387
+            ],
+            "radius": 0.092775,
+            "faces": 544
+          },
+          {
+            "name": "WheelRearLeft",
+            "center": [
+              -0.333005,
+              -0.05859500000000001,
+              0.186525
+            ],
+            "radius": 0.104495,
+            "faces": 296
+          },
+          {
+            "name": "WheelFrontRight",
+            "center": [
+              0.251955,
+              -0.07617499999999999,
+              -0.21387
+            ],
+            "radius": 0.092775,
+            "faces": 557
+          },
+          {
+            "name": "WheelRearRight",
+            "center": [
+              -0.333005,
+              -0.05859500000000001,
+              -0.186525
+            ],
+            "radius": 0.104495,
+            "faces": 288
+          }
+        ],
+        "summary": {
+          "bytes": 7000596,
+          "triangles": 7529,
+          "meshes": 5,
+          "materials": 1,
+          "textures": 3,
+          "images": 3,
+          "nodes": 9,
+          "generator": "https://github.com/mikedh/trimesh"
+        }
+      }
+    },
+    {
+      "task_id": "car_2",
+      "task_kind": "3d_object",
+      "model": "Mivo3DModel",
+      "model_call": {
+        "task_id": "6aded1ed2c42a6bafa14d2f2",
+        "cached": false,
+        "capability": "model3d.tripo",
+        "model": "P1",
+        "elapsed_sec": 107.765,
+        "credits": null,
+        "bytes": 10392392,
+        "triangles": 7487,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "images": 3,
+        "nodes": 1,
+        "generator": "https://tripo3d.ai"
+      },
+      "prompt": null,
+      "source_image": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\image\\car_2\\image.png",
+      "game_preparation": {
+        "texture_limit": 1536,
+        "source_preserved": true,
+        "wheels": [
+          {
+            "name": "WheelFrontLeft",
+            "center": [
+              0.32616999999999996,
+              -0.12891,
+              0.25293
+            ],
+            "radius": 0.13379,
+            "faces": 396
+          },
+          {
+            "name": "WheelRearLeft",
+            "center": [
+              -0.31836,
+              -0.12207000000000001,
+              0.23535
+            ],
+            "radius": 0.13477,
+            "faces": 360
+          },
+          {
+            "name": "WheelFrontRight",
+            "center": [
+              0.326175,
+              -0.12891,
+              -0.25488500000000003
+            ],
+            "radius": 0.13379,
+            "faces": 360
+          },
+          {
+            "name": "WheelRearRight",
+            "center": [
+              -0.31836,
+              -0.12207000000000001,
+              -0.225585
+            ],
+            "radius": 0.13477,
+            "faces": 354
+          }
+        ],
+        "summary": {
+          "bytes": 7159076,
+          "triangles": 7487,
+          "meshes": 5,
+          "materials": 1,
+          "textures": 3,
+          "images": 3,
+          "nodes": 9,
+          "generator": "https://github.com/mikedh/trimesh"
+        }
+      }
+    },
+    {
+      "task_id": "coastal_rocks",
+      "task_kind": "3d_object",
+      "model": "Mivo3DModel",
+      "model_call": {
+        "task_id": "6aded5cb349ea7894d14c8a1",
+        "cached": false,
+        "capability": "model3d.tripo",
+        "model": "P1",
+        "elapsed_sec": 121.891,
+        "credits": null,
+        "bytes": 14588128,
+        "triangles": 1721,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "images": 3,
+        "nodes": 1,
+        "generator": "https://tripo3d.ai"
+      },
+      "prompt": null,
+      "source_image": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\image\\coastal_rocks\\image.png",
+      "game_preparation": {
+        "texture_limit": 1024,
+        "source_preserved": true,
+        "wheels": [],
+        "summary": {
+          "bytes": 3786292,
+          "triangles": 1721,
+          "meshes": 1,
+          "materials": 1,
+          "textures": 3,
+          "images": 3,
+          "nodes": 1,
+          "generator": "https://github.com/mikedh/trimesh"
+        }
+      }
+    },
+    {
+      "task_id": "driver_0",
+      "task_kind": "3d_object",
+      "model": "Mivo3DModel",
+      "model_call": {
+        "task_id": "6aded02f349ea7894d14c844",
+        "cached": false,
+        "capability": "model3d.tripo",
+        "model": "P1",
+        "elapsed_sec": 121.89,
+        "credits": null,
+        "bytes": 10745452,
+        "triangles": 6524,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "images": 3,
+        "nodes": 1,
+        "generator": "https://tripo3d.ai"
+      },
+      "prompt": null,
+      "source_image": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\image\\driver_0\\image.png",
+      "game_preparation": {
+        "texture_limit": 1536,
+        "source_preserved": true,
+        "wheels": [],
+        "summary": {
+          "bytes": 6276072,
+          "triangles": 6524,
+          "meshes": 1,
+          "materials": 1,
+          "textures": 3,
+          "images": 3,
+          "nodes": 1,
+          "generator": "https://github.com/mikedh/trimesh"
+        }
+      }
+    },
+    {
+      "task_id": "driver_1",
+      "task_kind": "3d_object",
+      "model": "Mivo3DModel",
+      "model_call": {
+        "task_id": "6aded310349ea7894d14c878",
+        "cached": false,
+        "capability": "model3d.tripo",
+        "model": "P1",
+        "elapsed_sec": 128.875,
+        "credits": null,
+        "bytes": 11224884,
+        "triangles": 6106,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "images": 3,
+        "nodes": 1,
+        "generator": "https://tripo3d.ai"
+      },
+      "prompt": null,
+      "source_image": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\image\\driver_1\\image.png",
+      "game_preparation": {
+        "texture_limit": 1536,
+        "source_preserved": true,
+        "wheels": [],
+        "summary": {
+          "bytes": 6604308,
+          "triangles": 6106,
+          "meshes": 1,
+          "materials": 1,
+          "textures": 3,
+          "images": 3,
+          "nodes": 1,
+          "generator": "https://github.com/mikedh/trimesh"
+        }
+      }
+    },
+    {
+      "task_id": "driver_2",
+      "task_kind": "3d_object",
+      "model": "Mivo3DModel",
+      "model_call": {
+        "task_id": "6aded3e2349ea7894d14c88c",
+        "cached": false,
+        "capability": "model3d.tripo",
+        "model": "P1",
+        "elapsed_sec": 122.719,
+        "credits": null,
+        "bytes": 9097164,
+        "triangles": 6288,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "images": 3,
+        "nodes": 1,
+        "generator": "https://tripo3d.ai"
+      },
+      "prompt": null,
+      "source_image": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\image\\driver_2\\image.png",
+      "game_preparation": {
+        "texture_limit": 1536,
+        "source_preserved": true,
+        "wheels": [],
+        "summary": {
+          "bytes": 5756528,
+          "triangles": 6288,
+          "meshes": 1,
+          "materials": 1,
+          "textures": 3,
+          "images": 3,
+          "nodes": 1,
+          "generator": "https://github.com/mikedh/trimesh"
+        }
+      }
+    },
+    {
+      "task_id": "lighthouse",
+      "task_kind": "3d_object",
+      "model": "Mivo3DModel",
+      "model_call": {
+        "task_id": "6aded5692c42a6bafa14d327",
+        "cached": false,
+        "capability": "model3d.tripo",
+        "model": "P1",
+        "elapsed_sec": 97.5,
+        "credits": null,
+        "bytes": 8327864,
+        "triangles": 4053,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "images": 3,
+        "nodes": 1,
+        "generator": "https://tripo3d.ai"
+      },
+      "prompt": null,
+      "source_image": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\image\\lighthouse\\image.png",
+      "game_preparation": {
+        "texture_limit": 1024,
+        "source_preserved": true,
+        "wheels": [],
+        "summary": {
+          "bytes": 2969868,
+          "triangles": 4053,
+          "meshes": 1,
+          "materials": 1,
+          "textures": 3,
+          "images": 3,
+          "nodes": 1,
+          "generator": "https://github.com/mikedh/trimesh"
+        }
+      }
+    },
+    {
+      "task_id": "palm",
+      "task_kind": "3d_object",
+      "model": "Mivo3DModel",
+      "model_call": {
+        "task_id": "6aded45d2c42a6bafa14d319",
+        "cached": false,
+        "capability": "model3d.tripo",
+        "model": "P1",
+        "elapsed_sec": 121.844,
+        "credits": null,
+        "bytes": 9390768,
+        "triangles": 1691,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "images": 3,
+        "nodes": 1,
+        "generator": "https://tripo3d.ai"
+      },
+      "prompt": null,
+      "source_image": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\image\\palm\\image.png",
+      "game_preparation": {
+        "texture_limit": 1024,
+        "source_preserved": true,
+        "wheels": [],
+        "summary": {
+          "bytes": 3144148,
+          "triangles": 1691,
+          "meshes": 1,
+          "materials": 1,
+          "textures": 3,
+          "images": 3,
+          "nodes": 1,
+          "generator": "https://github.com/mikedh/trimesh"
+        }
+      }
+    },
+    {
+      "task_id": "beach_hut",
+      "task_kind": "image",
+      "model": "MivoImageModel",
+      "model_call": {
+        "task_id": "6aded1af2c42a6bafa14d2e8",
+        "cached": false,
+        "capability": "image.gpt",
+        "model": "gpt-image-2",
+        "elapsed_sec": 52.672,
+        "credits": null,
+        "bytes": 3417334
+      },
+      "prompt": "One small Mediterranean coastal beach cafe building as an isolated stylized 3D game asset, ivory stucco walls, coral terracotta pitched tiled roof, turquoise shutters and recessed door, short striped cream and turquoise fabric awning, timber porch railing, charming small flower boxes. One complete compact two-storey structure, clean detailed stylized materials and rounded corners, polished sunny arcade racing game environment art. Three-quarter view showing front door and side wall, entire object visible with margins. No writing, no signs with letters, no people, no vehicles, no floor, no base slab, no shadow, isolated pure white background, no collage.",
+      "parameters": {
+        "quality": "medium",
+        "imgRatio": "1:1",
+        "background": "opaque"
+      },
+      "source_images": []
+    },
+    {
+      "task_id": "car_0",
+      "task_kind": "image",
+      "model": "MivoImageModel",
+      "model_call": {
+        "task_id": "6adece8d90572148c314bc58",
+        "cached": false,
+        "capability": "image.gpt",
+        "model": "gpt-image-2",
+        "elapsed_sec": 38.235,
+        "credits": null,
+        "bytes": 3164104
+      },
+      "prompt": "A single original stylized open-cockpit racing roadster for a polished sunny coastal arcade racing game. Turquoise body, ivory central racing stripe, dark navy rubber tires, silver wheel hubs, sculpted aerodynamic rounded body panels, compact rear wing, slim warm white headlights, red tail lamps. Four distinct tires, wheelbase and proportions like a compact sports kart, a deep EMPTY SINGLE CENTRAL driver seat behind a low windscreen, accessible cockpit large enough for a helmeted racer. Front bonnet longer than rear deck, attractive readable silhouette, high-quality painted-metal and rubber textures. No person, no driver, no roof. Three-quarter front view with the nose towards lower left, entire car centered with 12 percent margin. Isolated on pure white, soft even studio lighting, no floor, no platform, no shadow, no text, no logos. Single object, no collage, no additional parts.",
+      "parameters": {
+        "quality": "medium",
+        "imgRatio": "1:1"
+      },
+      "source_images": []
+    },
+    {
+      "task_id": "car_1",
+      "task_kind": "image",
+      "model": "MivoImageModel",
+      "model_call": {
+        "task_id": "6adecea8349ea7894d14c7e4",
+        "cached": false,
+        "capability": "image.gpt",
+        "model": "gpt-image-2",
+        "elapsed_sec": 189.703,
+        "credits": null,
+        "bytes": 4839759
+      },
+      "prompt": "One original stylized open-cockpit racing sports kart, coral orange body with two narrow ivory stripes, a long sharp low front bonnet, broad rear wing, sporty side air intakes, dark navy tires and silver multispoke rims. Four distinct tires. Empty SINGLE CENTRAL cockpit and deep driver seat, behind a tiny low wind deflector. Compact sportscar proportions, sporty and friendly polished 3D arcade racing design, rounded panel edges, clean painted metal, rubber and carbon accents, warm white front headlights and red rear lights. No roof, no driver, no people. Three-quarter FRONT view with nose towards lower left, full vehicle visible, isolated centered on pure white background, even studio light, no floor, no shadow, no pedestal, no text, no brands, no collage.",
+      "parameters": {
+        "quality": "medium",
+        "imgRatio": "1:1"
+      },
+      "source_images": []
+    },
+    {
+      "task_id": "car_2",
+      "task_kind": "image",
+      "model": "MivoImageModel",
+      "model_call": {
+        "task_id": "6adecf65d0297c01d014c028",
+        "cached": false,
+        "capability": "image.gpt",
+        "model": "gpt-image-2",
+        "elapsed_sec": 73.641,
+        "credits": null,
+        "bytes": 5224683
+      },
+      "prompt": "One original stylized compact open-cockpit beach rally roadster for a sunny polished arcade racing game. Butter-yellow sculpted body with turquoise side accents and ivory bonnet stripe, rounded short nose, round warm headlights, flared wheel arches, four distinct chunky navy tires and polished silver wheels, short rear deck with red tail lights. Empty SINGLE CENTRAL driver cockpit with low wind deflector, no roof and no driver. Agile small lightweight sports kart proportions, sculpted painted metal panels with rounded edges, charming but refined high quality 3D game asset. Three-quarter FRONT view with nose pointing lower left, whole vehicle centered with 12 percent margins, pure white background, even studio light, no floor, no platform, no shadows, no text, no logo, no collage.",
+      "parameters": {
+        "quality": "medium",
+        "imgRatio": "1:1"
+      },
+      "source_images": []
+    },
+    {
+      "task_id": "coastal_rocks",
+      "task_kind": "image",
+      "model": "MivoImageModel",
+      "model_call": {
+        "task_id": "6aded216d0297c01d014c03a",
+        "cached": false,
+        "capability": "image.gpt",
+        "model": "gpt-image-2",
+        "elapsed_sec": 55.094,
+        "credits": null,
+        "bytes": 3347392
+      },
+      "prompt": "One compact cluster of three connected coastal limestone rocks as a polished stylized 3D game environment prop. Rounded sculptural pale warm ivory and beige weathered rocks with gentle stratification, muted mint moss on top surfaces. Strong organic asymmetrical silhouette, suitable beside a sunny Mediterranean racing track, refined stylized hand-painted texture, no harsh low-poly facets. Entire compact cluster visible, centered, three-quarter view, isolated on pure white background, no floor plane, no separate scenery, no water, no shadow, no people, no text, no collage.",
+      "parameters": {
+        "quality": "medium",
+        "imgRatio": "1:1",
+        "background": "opaque"
+      },
+      "source_images": []
+    },
+    {
+      "task_id": "driver_0",
+      "task_kind": "image",
+      "model": "MivoImageModel",
+      "model_call": {
+        "task_id": "6adeceb2d0297c01d014c010",
+        "cached": false,
+        "capability": "image.gpt",
+        "model": "gpt-image-2",
+        "elapsed_sec": 70.39,
+        "credits": null,
+        "bytes": 4856809
+      },
+      "prompt": "One original stylized helmeted racing driver for a sunny coastal arcade racing game, fully visible in a SEATED DRIVING POSE with bent knees and arms reaching forward to hold an imaginary steering wheel, hands separated, boots forward. No chair, no steering wheel, no car, no platform. Compact friendly adult proportions, slightly oversized round turquoise full-face motorsport helmet with navy mirrored visor and ivory center stripe. Ivory quilted racing suit with turquoise shoulder panels and knee patches, navy gloves and boots. Refined stylized 3D game character, clean tailored seams and fabric detail, solid complete limbs. Three-quarter front view, entire body including boots and hands centered with generous white margins, evenly lit on pure white background, no shadows, no text, no logo, no extra person.",
+      "parameters": {
+        "quality": "medium",
+        "imgRatio": "1:1"
+      },
+      "source_images": []
+    },
+    {
+      "task_id": "driver_1",
+      "task_kind": "image",
+      "model": "MivoImageModel",
+      "model_call": {
+        "task_id": "6adecfa02c42a6bafa14d29b",
+        "cached": false,
+        "capability": "image.gpt",
+        "model": "gpt-image-2",
+        "elapsed_sec": 229.734,
+        "credits": null,
+        "bytes": 5167675
+      },
+      "prompt": "Create one matching stylized seated racing driver, keeping the reference character's exact seated driving pose, full-body framing, body proportions, gloves and boots placement. Replace the outfit with coral pink quilted racing suit, ivory chest and shoulders, coral orange motorsport helmet with ivory stripe and dark navy mirrored visor. Add a short ivory scarf snug around the neck, no long loose pieces. Full body including both boots and hands visible, arms forward gripping an imaginary steering wheel, no car or chair or steering wheel. Original polished stylized 3D arcade game character, single subject isolated on white background, no shadow, no floor, no text, no logos, no extra figures.",
+      "parameters": {
+        "quality": "medium",
+        "imgRatio": "1:1"
+      },
+      "source_images": [
+        "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\image\\driver_0\\image.png"
+      ]
+    },
+    {
+      "task_id": "driver_2",
+      "task_kind": "image",
+      "model": "MivoImageModel",
+      "model_call": {
+        "task_id": "6aded24bd0297c01d014c040",
+        "cached": false,
+        "capability": "image.gpt",
+        "model": "gpt-image-2",
+        "elapsed_sec": 72.531,
+        "credits": null,
+        "bytes": 4221176
+      },
+      "prompt": "Create one matching stylized seated racing driver, keeping the reference character's seated driving pose, full-body framing, body proportions, gloves and boots placement. Outfit: lavender racing suit with ivory chest and lilac shoulder padding, navy gloves and boots, lavender full-face helmet with navy mirrored visor and two short rounded rabbit ears attached to its top, small pale gold star badge on chest without any lettering. Friendly original polished stylized 3D arcade game character. Entire seated body visible including ears boots and hands, arms forward holding imaginary steering wheel. No car, no chair, no actual steering wheel, no floor, no shadows, pure white background, one subject, no text, no logo.",
+      "parameters": {
+        "quality": "medium",
+        "imgRatio": "1:1",
+        "background": "opaque"
+      },
+      "source_images": [
+        "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\image\\driver_0\\image.png"
+      ]
+    },
+    {
+      "task_id": "driver_portrait_0",
+      "task_kind": "image",
+      "source_images": [
+        "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\image\\driver_0\\image.png"
+      ],
+      "derived_from": "driver_0",
+      "operation": "Upper body crop; exterior white background extraction for opaque source; resize, alpha retained."
+    },
+    {
+      "task_id": "driver_portrait_1",
+      "task_kind": "image",
+      "source_images": [
+        "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\image\\driver_1\\image.png"
+      ],
+      "derived_from": "driver_1",
+      "operation": "Upper body crop; exterior white background extraction for opaque source; resize, alpha retained."
+    },
+    {
+      "task_id": "driver_portrait_2",
+      "task_kind": "image",
+      "source_images": [
+        "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\image\\driver_2\\image.png"
+      ],
+      "derived_from": "driver_2",
+      "operation": "Upper body crop; exterior white background extraction for opaque source; resize, alpha retained."
+    },
+    {
+      "task_id": "lighthouse",
+      "task_kind": "image",
+      "model": "MivoImageModel",
+      "model_call": {
+        "task_id": "6aded1e52c42a6bafa14d2f0",
+        "cached": false,
+        "capability": "image.gpt",
+        "model": "gpt-image-2",
+        "elapsed_sec": 48.688,
+        "credits": null,
+        "bytes": 1679580
+      },
+      "prompt": "One elegant original coastal lighthouse as a polished stylized 3D game asset. Tapered ivory tower with broad coral red horizontal bands, dark navy lantern room and small copper dome, circular ivory balcony rail near top, tiny turquoise entry door at base, stone foundation integrated into the tower footprint. Cheerful Mediterranean seaside arcade racing aesthetic, clean readable silhouette, refined painted material details. Entire tower from base to tip visible with generous margins, three-quarter view, evenly lit isolated on pure white background, no landscape, no ground plane, no shadows, no people, no text, no logos, no collage.",
+      "parameters": {
+        "quality": "medium",
+        "imgRatio": "1:1",
+        "background": "opaque"
+      },
+      "source_images": []
+    },
+    {
+      "task_id": "menu_coast",
+      "task_kind": "image",
+      "model": "MivoImageModel",
+      "model_call": {
+        "task_id": "6adecef92c42a6bafa14d27a",
+        "cached": false,
+        "capability": "image.gpt",
+        "model": "gpt-image-2",
+        "elapsed_sec": 58.125,
+        "credits": null,
+        "bytes": 4995178
+      },
+      "prompt": "Use case: stylized-concept. A premium sunny coastal arcade racing game main menu background illustration, wide 16:9 cinematic composition. Bright turquoise ocean beyond a curving elevated coastal race circuit, white Mediterranean seaside houses with coral roofs, a graceful striped lighthouse on the distant right headland, lush palm fronds framing the top corners, clear sky with soft cumulus clouds. Warm late-morning sunlight, rich turquoise and cerulean with ivory and coral accents, polished stylized 3D game key art, exquisite clean materials. The center and lower middle foreground is an EMPTY broad clean pale stone seaside terrace reserved for overlaying an interactive 3D vehicle showcase. Left upper quarter is calm blue sky reserved for a large game title. Buildings and busy detail kept near horizon and outer edges. No car, no racer, no people, no words, no logos, no interface, no buttons, no watermark.",
+      "parameters": {
+        "quality": "medium",
+        "imgRatio": "16:9"
+      },
+      "source_images": []
+    },
+    {
+      "task_id": "palm",
+      "task_kind": "image",
+      "model": "MivoImageModel",
+      "model_call": {
+        "task_id": "6aded1652c42a6bafa14d2e2",
+        "cached": false,
+        "capability": "image.gpt",
+        "model": "gpt-image-2",
+        "elapsed_sec": 74.547,
+        "credits": null,
+        "bytes": 4131252
+      },
+      "prompt": "A single elegant stylized tropical coconut palm tree game asset, slightly curved tapered sandy brown trunk with natural ring texture, crown of seven lush large curved emerald and mint green fronds with clearly shaped leaves, three small coconuts. Refined hand-painted 3D art for a cheerful premium coastal racing game, natural silhouette, full tree trunk to leaf tips visible, centered and isolated on pure white background with generous margins. Flat even illumination, no ground, no grass base, no pot, no shadow, no people, no text, no collage.",
+      "parameters": {
+        "quality": "medium",
+        "imgRatio": "1:1",
+        "background": "opaque"
+      },
+      "source_images": []
+    },
+    {
+      "task_id": "track_card",
+      "task_kind": "image",
+      "model": "MivoImageModel",
+      "model_call": {
+        "task_id": "6adecf342c42a6bafa14d288",
+        "cached": false,
+        "capability": "image.gpt",
+        "model": "gpt-image-2",
+        "elapsed_sec": 74.406,
+        "credits": null,
+        "bytes": 13164172
+      },
+      "prompt": "A beautiful polished stylized 3D coastal race circuit landscape for a sunny arcade racing game's track selection card. A sweeping asphalt S bend with cream and coral rumble strips, bright turquoise ocean, white cliffs, mint palm trees, Mediterranean pastel beach houses and a small striped lighthouse. View from an elevated trackside camera, strong depth and welcoming warm sunlight, saturated but tasteful cerulean turquoise ivory and coral palette. Clear racing road occupying lower half, coherent wide 3:2 composition, premium game environment art. No cars, no people, no text, no logo, no watermark, no UI.",
+      "parameters": {
+        "quality": "medium",
+        "imgRatio": "3:2"
+      },
+      "source_images": []
+    }
+  ],
+  "rigging_v7": {
+    "source_run": "20261026_visual_v6",
+    "output_run": "20261026_rig_v7",
+    "blender_version": "4.5.12",
+    "paid_generation_calls": 0,
+    "binding": "calibrated interactive visual annotations + Vibe constrained skinning + Blender GLB export",
+    "runtime": "Godot SkeletonModifier3D analytic two-bone IK",
+    "artifacts": [
+      {
+        "game_id": "sunny_drift",
+        "run_id": "20261026_rig_v7",
+        "task_kind": "3d_object",
+        "task_id": "car_0",
+        "glb_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_rig_v7\\assets\\3d_object\\car_0\\model.glb",
+        "source": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\3d_object\\car_0\\game_model.glb",
+        "steering_component_faces": 248,
+        "steering_center_source": [
+          0.0224609375,
+          0.0615234375,
+          0.0009765662252902985
+        ],
+        "steering_bounds_source": [
+          [
+            0.0048828125,
+            0.0126953125,
+            -0.0498046837747097
+          ],
+          [
+            0.0400390625,
+            0.1103515625,
+            0.0517578162252903
+          ]
+        ]
+      },
+      {
+        "game_id": "sunny_drift",
+        "run_id": "20261026_rig_v7",
+        "task_kind": "3d_object",
+        "task_id": "car_1",
+        "glb_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_rig_v7\\assets\\3d_object\\car_1\\model.glb",
+        "source": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\3d_object\\car_1\\game_model.glb",
+        "steering_component_faces": 356,
+        "steering_center_source": [
+          0.06640625,
+          0.0341796875,
+          0.0
+        ],
+        "steering_bounds_source": [
+          [
+            0.0205078125,
+            -0.0126953125,
+            -0.0517578125
+          ],
+          [
+            0.1123046875,
+            0.0810546875,
+            0.0517578125
+          ]
+        ]
+      },
+      {
+        "game_id": "sunny_drift",
+        "run_id": "20261026_rig_v7",
+        "task_kind": "3d_object",
+        "task_id": "car_2",
+        "glb_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_rig_v7\\assets\\3d_object\\car_2\\model.glb",
+        "source": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\3d_object\\car_2\\game_model.glb",
+        "steering_component_faces": 306,
+        "steering_center_source": [
+          0.005859375,
+          0.08886718843132257,
+          -0.05371093563735485
+        ],
+        "steering_bounds_source": [
+          [
+            -0.0361328125,
+            0.02246093936264515,
+            -0.1298828125
+          ],
+          [
+            0.0478515625,
+            0.1552734375,
+            0.0224609412252903
+          ]
+        ]
+      },
+      {
+        "task_id": "driver_0",
+        "game_id": "sunny_drift",
+        "run_id": "20261026_rig_v7",
+        "task_kind": "motion",
+        "task_type": "seated_rig",
+        "output_dir": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_rig_v7\\assets\\motion\\driver_0",
+        "rigged_glb_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_rig_v7\\assets\\motion\\driver_0\\rigged.glb",
+        "blend_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_rig_v7\\assets\\motion\\driver_0\\driver_rig.blend",
+        "rig_report_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_rig_v7\\assets\\motion\\driver_0\\rig_report.json",
+        "skin_report_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_rig_v7\\assets\\motion\\driver_0\\skin_report.json",
+        "source_mesh": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\3d_object\\driver_0\\game_model.glb",
+        "source_sha256": "984487c945f1549f013807576c956de445bc1b60a559c587d1f069c35562edc7"
+      },
+      {
+        "task_id": "driver_1",
+        "game_id": "sunny_drift",
+        "run_id": "20261026_rig_v7",
+        "task_kind": "motion",
+        "task_type": "seated_rig",
+        "output_dir": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_rig_v7\\assets\\motion\\driver_1",
+        "rigged_glb_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_rig_v7\\assets\\motion\\driver_1\\rigged.glb",
+        "blend_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_rig_v7\\assets\\motion\\driver_1\\driver_rig.blend",
+        "rig_report_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_rig_v7\\assets\\motion\\driver_1\\rig_report.json",
+        "skin_report_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_rig_v7\\assets\\motion\\driver_1\\skin_report.json",
+        "source_mesh": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\3d_object\\driver_1\\game_model.glb",
+        "source_sha256": "dc9a74f0e9709322a42a5a0e45583b7f3684312e7c69d8cdfb46f843194ff67a"
+      },
+      {
+        "task_id": "driver_2",
+        "game_id": "sunny_drift",
+        "run_id": "20261026_rig_v7",
+        "task_kind": "motion",
+        "task_type": "seated_rig",
+        "output_dir": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_rig_v7\\assets\\motion\\driver_2",
+        "rigged_glb_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_rig_v7\\assets\\motion\\driver_2\\rigged.glb",
+        "blend_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_rig_v7\\assets\\motion\\driver_2\\driver_rig.blend",
+        "rig_report_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_rig_v7\\assets\\motion\\driver_2\\rig_report.json",
+        "skin_report_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_rig_v7\\assets\\motion\\driver_2\\skin_report.json",
+        "source_mesh": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261026_visual_v6\\assets\\3d_object\\driver_2\\game_model.glb",
+        "source_sha256": "ce5c08af52c30078c35991402bf5b04fd6d39a0bd69f0c77b23bb997c4b60cd3"
+      }
+    ]
+  },
+  "vfx_v8": {
+    "source": "Project-native mesh and shader VFX; deterministic procedural smoke atlas",
+    "seed": 248,
+    "atlas": "project/assets/vfx_v8/puff_atlas.png",
+    "paid_generation_calls": 0,
+    "legacy_model_assets_preserved": true
+  },
+  "maps_v11": {
+    "date": "2026-10-26",
+    "provider": "authored local rigid specs + Kenney CC0",
+    "paid_calls": 0,
+    "assets": [
+      {
+        "asset_id": "map_warehouse",
+        "source": "authored_spec",
+        "license": "project-original",
+        "path": "res://assets/imported/maps_v11/warehouse/model.glb",
+        "source_url": null,
+        "forward_axis": "-z",
+        "size_m": [
+          17.1223850250244,
+          8.0,
+          12.5899896621704
+        ],
+        "triangles": 616,
+        "processing": "native material-aware surface merge and MultiMesh instancing; foliage recolored, rock metallic set to zero; full horizontal footprint clearance enforced",
+        "native_review": "evidence/maps_v11/20261026_192321_235936/"
+      },
+      {
+        "asset_id": "map_container",
+        "source": "authored_spec",
+        "license": "project-original",
+        "path": "res://assets/imported/maps_v11/container/model.glb",
+        "source_url": null,
+        "forward_axis": "-x",
+        "size_m": [
+          10.2199993133545,
+          3.0,
+          3.55999994277954
+        ],
+        "triangles": 628,
+        "processing": "native material-aware surface merge and MultiMesh instancing; foliage recolored, rock metallic set to zero; full horizontal footprint clearance enforced",
+        "native_review": "evidence/maps_v11/20261026_192321_235936/"
+      },
+      {
+        "asset_id": "map_crane",
+        "source": "authored_spec",
+        "license": "project-original",
+        "path": "res://assets/imported/maps_v11/crane/model.glb",
+        "source_url": null,
+        "forward_axis": "-z",
+        "size_m": [
+          13.2309122085571,
+          21.3999996185303,
+          26.0608882904053
+        ],
+        "triangles": 704,
+        "processing": "native material-aware surface merge and MultiMesh instancing; foliage recolored, rock metallic set to zero; full horizontal footprint clearance enforced",
+        "native_review": "evidence/maps_v11/20261026_192321_235936/"
+      },
+      {
+        "asset_id": "map_harbor_lamp",
+        "source": "authored_spec",
+        "license": "project-original",
+        "path": "res://assets/imported/maps_v11/harbor_lamp/model.glb",
+        "source_url": null,
+        "forward_axis": "non_directional_scenery",
+        "size_m": [
+          3.47628903388977,
+          6.09999990463257,
+          0.862728714942932
+        ],
+        "triangles": 220,
+        "processing": "native material-aware surface merge and MultiMesh instancing; foliage recolored, rock metallic set to zero; full horizontal footprint clearance enforced",
+        "native_review": "evidence/maps_v11/20261026_192321_235936/"
+      },
+      {
+        "asset_id": "map_lookout",
+        "source": "authored_spec",
+        "license": "project-original",
+        "path": "res://assets/imported/maps_v11/lookout/model.glb",
+        "source_url": null,
+        "forward_axis": "-z",
+        "size_m": [
+          10.0,
+          3.40000009536743,
+          7.0
+        ],
+        "triangles": 704,
+        "processing": "native material-aware surface merge and MultiMesh instancing; foliage recolored, rock metallic set to zero; full horizontal footprint clearance enforced",
+        "native_review": "evidence/maps_v11/20261026_192321_235936/"
+      },
+      {
+        "asset_id": "map_mountain_gate",
+        "source": "authored_spec",
+        "license": "project-original",
+        "path": "res://assets/imported/maps_v11/mountain_gate/model.glb",
+        "source_url": null,
+        "forward_axis": "-z",
+        "size_m": [
+          24.0623397827148,
+          9.65000057220459,
+          3.80987024307251
+        ],
+        "triangles": 220,
+        "processing": "native material-aware surface merge and MultiMesh instancing; foliage recolored, rock metallic set to zero; full horizontal footprint clearance enforced",
+        "native_review": "evidence/maps_v11/20261026_192321_235936/"
+      },
+      {
+        "asset_id": "map_pine_tall",
+        "source": "Kenney Nature Kit 2.1",
+        "license": "CC0-1.0",
+        "path": "res://assets/imported/maps_v11/pine_tall/model.glb",
+        "source_url": "https://kenney.nl/assets/nature-kit",
+        "forward_axis": "non_directional_scenery",
+        "size_m": [
+          3.03037190437317,
+          12.0,
+          3.07490968704224
+        ],
+        "triangles": 78,
+        "processing": "native material-aware surface merge and MultiMesh instancing; foliage recolored, rock metallic set to zero; full horizontal footprint clearance enforced",
+        "native_review": "evidence/maps_v11/20261026_192321_235936/"
+      },
+      {
+        "asset_id": "map_pine_round",
+        "source": "Kenney Nature Kit 2.1",
+        "license": "CC0-1.0",
+        "path": "res://assets/imported/maps_v11/pine_round/model.glb",
+        "source_url": "https://kenney.nl/assets/nature-kit",
+        "forward_axis": "non_directional_scenery",
+        "size_m": [
+          3.61242389678955,
+          8.0,
+          4.17126798629761
+        ],
+        "triangles": 204,
+        "processing": "native material-aware surface merge and MultiMesh instancing; foliage recolored, rock metallic set to zero; full horizontal footprint clearance enforced",
+        "native_review": "evidence/maps_v11/20261026_192321_235936/"
+      },
+      {
+        "asset_id": "map_ridge_rock",
+        "source": "Kenney Nature Kit 2.1",
+        "license": "CC0-1.0",
+        "path": "res://assets/imported/maps_v11/ridge_rock/model.glb",
+        "source_url": "https://kenney.nl/assets/nature-kit",
+        "forward_axis": "non_directional_scenery",
+        "size_m": [
+          21.1495132446289,
+          6.99974012374878,
+          27.3618698120117
+        ],
+        "triangles": 80,
+        "processing": "native material-aware surface merge and MultiMesh instancing; foliage recolored, rock metallic set to zero; full horizontal footprint clearance enforced",
+        "native_review": "evidence/maps_v11/20261026_192321_235936/"
+      },
+      {
+        "asset_id": "map_cliff",
+        "source": "Kenney Nature Kit 2.1",
+        "license": "CC0-1.0",
+        "path": "res://assets/imported/maps_v11/cliff/model.glb",
+        "source_url": "https://kenney.nl/assets/nature-kit",
+        "forward_axis": "non_directional_scenery",
+        "size_m": [
+          13.8457765579224,
+          16.0,
+          13.9408044815063
+        ],
+        "triangles": 172,
+        "processing": "native material-aware surface merge and MultiMesh instancing; foliage recolored, rock metallic set to zero; full horizontal footprint clearance enforced",
+        "native_review": "evidence/maps_v11/20261026_192321_235936/"
+      }
+    ],
+    "license_file": "project/assets/imported/maps_v11/KENNEY_LICENSE.txt",
+    "recipe": "prepare_maps_assets.py",
+    "source_roots": "pipeline.common.paths, same sunny_drift game/run",
+    "review_notes": "Five native orthographic directions reviewed. Container doors face -X; front view file means camera on -Z, not semantic forward. Trees/rocks are scenery with no required travel facing. Matte materials replace inappropriate metallic defaults on nature assets."
+  }
+}

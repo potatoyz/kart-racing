@@ -1,0 +1,1502 @@
+{
+  "revision": 11,
+  "assets": {
+    "map_warehouse": {
+      "size": 8.0,
+      "source": "authored_spec",
+      "license": "project-original",
+      "spec_task_id": "maps_v11_warehouse",
+      "enabled": true,
+      "size_axis": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "verified_by": "spec_and_native_visual",
+      "path": "res://assets/imported/maps_v11/warehouse/model.glb",
+      "artifact": {
+        "artifact_id": "godot_prop_maps_v11_warehouse_d22f791aab",
+        "asset_id": "maps_v11_warehouse",
+        "package_id": "maps_v11_warehouse",
+        "type": "prop",
+        "representation": "packedscene",
+        "primary_asset": {
+          "backend": "godot",
+          "class": "PackedScene",
+          "path": "res://assets/imported/maps_v11/warehouse/model.glb"
+        },
+        "runtime_capabilities": {
+          "renderable": true,
+          "spawnable": true,
+          "collidable": false,
+          "playable": false
+        },
+        "backend": "godot",
+        "backend_class": "PackedScene",
+        "backend_path": "res://assets/imported/maps_v11/warehouse/model.glb",
+        "source_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261021\\assets\\3d_object\\maps_v11_warehouse\\model.glb",
+        "spawnable": true,
+        "state": "ready",
+        "editor_backend": {
+          "backend": "godot",
+          "path": "res://assets/imported/maps_v11/warehouse/model.glb"
+        },
+        "runtime": {
+          "path": "res://assets/imported/maps_v11/warehouse/model.glb",
+          "class": "PackedScene",
+          "spawnable": true
+        },
+        "metadata": {
+          "source": {
+            "game_id": "sunny_drift",
+            "run_id": "20261021",
+            "task_kind": "3d_object",
+            "task_id": "maps_v11_warehouse",
+            "artifact_key": "glb_path"
+          },
+          "destination": "assets/imported/maps_v11/warehouse",
+          "skeleton": "",
+          "skeleton_path": "",
+          "requested_skeleton": "",
+          "native_inspection": {
+            "animation_details": [],
+            "animations": [],
+            "error": "",
+            "instantiable": true,
+            "is_animation": false,
+            "is_animation_library": false,
+            "is_audio_stream": false,
+            "is_material": false,
+            "is_packed_scene": true,
+            "is_texture_2d": false,
+            "nodes": [
+              {
+                "class": "Node3D",
+                "name": "warehouse",
+                "path": "."
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "body",
+                "path": "body"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "foundation",
+                "path": "foundation"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "roof_a",
+                "path": "roof_a"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "roof_b",
+                "path": "roof_b"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "door0",
+                "path": "door0"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "window0",
+                "path": "window0"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "door1",
+                "path": "door1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "window1",
+                "path": "window1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "door2",
+                "path": "door2"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "window2",
+                "path": "window2"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "column0",
+                "path": "column0"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "column1",
+                "path": "column1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "column2",
+                "path": "column2"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "column3",
+                "path": "column3"
+              }
+            ],
+            "ok": true,
+            "resource_class": "PackedScene",
+            "resource_path": "res://assets/imported/maps_v11/warehouse/model.glb",
+            "schema_version": "gamefactory3a.godot.resource_inspection.v1",
+            "skeletons": [],
+            "skinned_meshes": []
+          },
+          "options": {}
+        }
+      },
+      "visual_review": "evidence/maps_v11/20261026_192321_235936/",
+      "forward_axis": "-z",
+      "geometry": {
+        "size": [
+          17.1223850250244,
+          8.0,
+          12.5899896621704
+        ],
+        "triangles": 616,
+        "surfaces": 6
+      }
+    },
+    "map_container": {
+      "size": 3.0,
+      "source": "authored_spec",
+      "license": "project-original",
+      "spec_task_id": "maps_v11_container",
+      "enabled": true,
+      "size_axis": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "verified_by": "spec_and_native_visual",
+      "path": "res://assets/imported/maps_v11/container/model.glb",
+      "artifact": {
+        "artifact_id": "godot_prop_maps_v11_container_e4d7e04814",
+        "asset_id": "maps_v11_container",
+        "package_id": "maps_v11_container",
+        "type": "prop",
+        "representation": "packedscene",
+        "primary_asset": {
+          "backend": "godot",
+          "class": "PackedScene",
+          "path": "res://assets/imported/maps_v11/container/model.glb"
+        },
+        "runtime_capabilities": {
+          "renderable": true,
+          "spawnable": true,
+          "collidable": false,
+          "playable": false
+        },
+        "backend": "godot",
+        "backend_class": "PackedScene",
+        "backend_path": "res://assets/imported/maps_v11/container/model.glb",
+        "source_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261021\\assets\\3d_object\\maps_v11_container\\model.glb",
+        "spawnable": true,
+        "state": "ready",
+        "editor_backend": {
+          "backend": "godot",
+          "path": "res://assets/imported/maps_v11/container/model.glb"
+        },
+        "runtime": {
+          "path": "res://assets/imported/maps_v11/container/model.glb",
+          "class": "PackedScene",
+          "spawnable": true
+        },
+        "metadata": {
+          "source": {
+            "game_id": "sunny_drift",
+            "run_id": "20261021",
+            "task_kind": "3d_object",
+            "task_id": "maps_v11_container",
+            "artifact_key": "glb_path"
+          },
+          "destination": "assets/imported/maps_v11/container",
+          "skeleton": "",
+          "skeleton_path": "",
+          "requested_skeleton": "",
+          "native_inspection": {
+            "animation_details": [],
+            "animations": [],
+            "error": "",
+            "instantiable": true,
+            "is_animation": false,
+            "is_animation_library": false,
+            "is_audio_stream": false,
+            "is_material": false,
+            "is_packed_scene": true,
+            "is_texture_2d": false,
+            "nodes": [
+              {
+                "class": "Node3D",
+                "name": "container",
+                "path": "."
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "shell",
+                "path": "shell"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "lower_frame",
+                "path": "lower_frame"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "upper_frame",
+                "path": "upper_frame"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_0_-1",
+                "path": "rib_0_-1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_0_1",
+                "path": "rib_0_1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_1_-1",
+                "path": "rib_1_-1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_1_1",
+                "path": "rib_1_1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_2_-1",
+                "path": "rib_2_-1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_2_1",
+                "path": "rib_2_1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_3_-1",
+                "path": "rib_3_-1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_3_1",
+                "path": "rib_3_1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_4_-1",
+                "path": "rib_4_-1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_4_1",
+                "path": "rib_4_1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_5_-1",
+                "path": "rib_5_-1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_5_1",
+                "path": "rib_5_1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_6_-1",
+                "path": "rib_6_-1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_6_1",
+                "path": "rib_6_1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_7_-1",
+                "path": "rib_7_-1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_7_1",
+                "path": "rib_7_1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_8_-1",
+                "path": "rib_8_-1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_8_1",
+                "path": "rib_8_1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_9_-1",
+                "path": "rib_9_-1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_9_1",
+                "path": "rib_9_1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_10_-1",
+                "path": "rib_10_-1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_10_1",
+                "path": "rib_10_1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_11_-1",
+                "path": "rib_11_-1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_11_1",
+                "path": "rib_11_1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_12_-1",
+                "path": "rib_12_-1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_12_1",
+                "path": "rib_12_1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_13_-1",
+                "path": "rib_13_-1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_13_1",
+                "path": "rib_13_1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_14_-1",
+                "path": "rib_14_-1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_14_1",
+                "path": "rib_14_1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_15_-1",
+                "path": "rib_15_-1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_15_1",
+                "path": "rib_15_1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_16_-1",
+                "path": "rib_16_-1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rib_16_1",
+                "path": "rib_16_1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "door_bar0",
+                "path": "door_bar0"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "door_bar1",
+                "path": "door_bar1"
+              }
+            ],
+            "ok": true,
+            "resource_class": "PackedScene",
+            "resource_path": "res://assets/imported/maps_v11/container/model.glb",
+            "schema_version": "gamefactory3a.godot.resource_inspection.v1",
+            "skeletons": [],
+            "skinned_meshes": []
+          },
+          "options": {}
+        }
+      },
+      "visual_review": "evidence/maps_v11/20261026_192321_235936/",
+      "forward_axis": "-x",
+      "geometry": {
+        "size": [
+          10.2199993133545,
+          3.0,
+          3.55999994277954
+        ],
+        "triangles": 628,
+        "surfaces": 3
+      }
+    },
+    "map_crane": {
+      "size": 21.4,
+      "source": "authored_spec",
+      "license": "project-original",
+      "spec_task_id": "maps_v11_crane",
+      "enabled": true,
+      "size_axis": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "verified_by": "spec_and_native_visual",
+      "path": "res://assets/imported/maps_v11/crane/model.glb",
+      "artifact": {
+        "artifact_id": "godot_prop_maps_v11_crane_a00f830c34",
+        "asset_id": "maps_v11_crane",
+        "package_id": "maps_v11_crane",
+        "type": "prop",
+        "representation": "packedscene",
+        "primary_asset": {
+          "backend": "godot",
+          "class": "PackedScene",
+          "path": "res://assets/imported/maps_v11/crane/model.glb"
+        },
+        "runtime_capabilities": {
+          "renderable": true,
+          "spawnable": true,
+          "collidable": false,
+          "playable": false
+        },
+        "backend": "godot",
+        "backend_class": "PackedScene",
+        "backend_path": "res://assets/imported/maps_v11/crane/model.glb",
+        "source_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261021\\assets\\3d_object\\maps_v11_crane\\model.glb",
+        "spawnable": true,
+        "state": "ready",
+        "editor_backend": {
+          "backend": "godot",
+          "path": "res://assets/imported/maps_v11/crane/model.glb"
+        },
+        "runtime": {
+          "path": "res://assets/imported/maps_v11/crane/model.glb",
+          "class": "PackedScene",
+          "spawnable": true
+        },
+        "metadata": {
+          "source": {
+            "game_id": "sunny_drift",
+            "run_id": "20261021",
+            "task_kind": "3d_object",
+            "task_id": "maps_v11_crane",
+            "artifact_key": "glb_path"
+          },
+          "destination": "assets/imported/maps_v11/crane",
+          "skeleton": "",
+          "skeleton_path": "",
+          "requested_skeleton": "",
+          "native_inspection": {
+            "animation_details": [],
+            "animations": [],
+            "error": "",
+            "instantiable": true,
+            "is_animation": false,
+            "is_animation_library": false,
+            "is_audio_stream": false,
+            "is_material": false,
+            "is_packed_scene": true,
+            "is_texture_2d": false,
+            "nodes": [
+              {
+                "class": "Node3D",
+                "name": "crane",
+                "path": "."
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "leg0",
+                "path": "leg0"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "foot0",
+                "path": "foot0"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "leg1",
+                "path": "leg1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "foot1",
+                "path": "foot1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "crossbeam",
+                "path": "crossbeam"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "boom",
+                "path": "boom"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "cab",
+                "path": "cab"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "cab_window",
+                "path": "cab_window"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rope",
+                "path": "rope"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "hook",
+                "path": "hook"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "beam_tie0",
+                "path": "beam_tie0"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "beam_tie1",
+                "path": "beam_tie1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "beam_tie2",
+                "path": "beam_tie2"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "beam_tie3",
+                "path": "beam_tie3"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "beam_tie4",
+                "path": "beam_tie4"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "beam_tie5",
+                "path": "beam_tie5"
+              }
+            ],
+            "ok": true,
+            "resource_class": "PackedScene",
+            "resource_path": "res://assets/imported/maps_v11/crane/model.glb",
+            "schema_version": "gamefactory3a.godot.resource_inspection.v1",
+            "skeletons": [],
+            "skinned_meshes": []
+          },
+          "options": {}
+        }
+      },
+      "visual_review": "evidence/maps_v11/20261026_192321_235936/",
+      "forward_axis": "-z",
+      "geometry": {
+        "size": [
+          13.2309122085571,
+          21.3999996185303,
+          26.0608882904053
+        ],
+        "triangles": 704,
+        "surfaces": 4
+      }
+    },
+    "map_harbor_lamp": {
+      "size": 6.1,
+      "source": "authored_spec",
+      "license": "project-original",
+      "spec_task_id": "maps_v11_harbor_lamp",
+      "enabled": true,
+      "size_axis": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "verified_by": "spec_and_native_visual",
+      "path": "res://assets/imported/maps_v11/harbor_lamp/model.glb",
+      "artifact": {
+        "artifact_id": "godot_prop_maps_v11_harbor_lamp_ea550f1d19",
+        "asset_id": "maps_v11_harbor_lamp",
+        "package_id": "maps_v11_harbor_lamp",
+        "type": "prop",
+        "representation": "packedscene",
+        "primary_asset": {
+          "backend": "godot",
+          "class": "PackedScene",
+          "path": "res://assets/imported/maps_v11/harbor_lamp/model.glb"
+        },
+        "runtime_capabilities": {
+          "renderable": true,
+          "spawnable": true,
+          "collidable": false,
+          "playable": false
+        },
+        "backend": "godot",
+        "backend_class": "PackedScene",
+        "backend_path": "res://assets/imported/maps_v11/harbor_lamp/model.glb",
+        "source_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261021\\assets\\3d_object\\maps_v11_harbor_lamp\\model.glb",
+        "spawnable": true,
+        "state": "ready",
+        "editor_backend": {
+          "backend": "godot",
+          "path": "res://assets/imported/maps_v11/harbor_lamp/model.glb"
+        },
+        "runtime": {
+          "path": "res://assets/imported/maps_v11/harbor_lamp/model.glb",
+          "class": "PackedScene",
+          "spawnable": true
+        },
+        "metadata": {
+          "source": {
+            "game_id": "sunny_drift",
+            "run_id": "20261021",
+            "task_kind": "3d_object",
+            "task_id": "maps_v11_harbor_lamp",
+            "artifact_key": "glb_path"
+          },
+          "destination": "assets/imported/maps_v11/harbor_lamp",
+          "skeleton": "",
+          "skeleton_path": "",
+          "requested_skeleton": "",
+          "native_inspection": {
+            "animation_details": [],
+            "animations": [],
+            "error": "",
+            "instantiable": true,
+            "is_animation": false,
+            "is_animation_library": false,
+            "is_audio_stream": false,
+            "is_material": false,
+            "is_packed_scene": true,
+            "is_texture_2d": false,
+            "nodes": [
+              {
+                "class": "Node3D",
+                "name": "harbor lamp",
+                "path": "."
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "base",
+                "path": "base"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "mast",
+                "path": "mast"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "arm",
+                "path": "arm"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "lamp",
+                "path": "lamp"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "lens",
+                "path": "lens"
+              }
+            ],
+            "ok": true,
+            "resource_class": "PackedScene",
+            "resource_path": "res://assets/imported/maps_v11/harbor_lamp/model.glb",
+            "schema_version": "gamefactory3a.godot.resource_inspection.v1",
+            "skeletons": [],
+            "skinned_meshes": []
+          },
+          "options": {}
+        }
+      },
+      "visual_review": "evidence/maps_v11/20261026_192321_235936/",
+      "forward_axis": "non_directional_scenery",
+      "geometry": {
+        "size": [
+          3.47628903388977,
+          6.09999990463257,
+          0.862728714942932
+        ],
+        "triangles": 220,
+        "surfaces": 4
+      }
+    },
+    "map_lookout": {
+      "size": 3.4,
+      "source": "authored_spec",
+      "license": "project-original",
+      "spec_task_id": "maps_v11_lookout",
+      "enabled": true,
+      "size_axis": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "verified_by": "spec_and_native_visual",
+      "path": "res://assets/imported/maps_v11/lookout/model.glb",
+      "artifact": {
+        "artifact_id": "godot_prop_maps_v11_lookout_61520a271b",
+        "asset_id": "maps_v11_lookout",
+        "package_id": "maps_v11_lookout",
+        "type": "prop",
+        "representation": "packedscene",
+        "primary_asset": {
+          "backend": "godot",
+          "class": "PackedScene",
+          "path": "res://assets/imported/maps_v11/lookout/model.glb"
+        },
+        "runtime_capabilities": {
+          "renderable": true,
+          "spawnable": true,
+          "collidable": false,
+          "playable": false
+        },
+        "backend": "godot",
+        "backend_class": "PackedScene",
+        "backend_path": "res://assets/imported/maps_v11/lookout/model.glb",
+        "source_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261021\\assets\\3d_object\\maps_v11_lookout\\model.glb",
+        "spawnable": true,
+        "state": "ready",
+        "editor_backend": {
+          "backend": "godot",
+          "path": "res://assets/imported/maps_v11/lookout/model.glb"
+        },
+        "runtime": {
+          "path": "res://assets/imported/maps_v11/lookout/model.glb",
+          "class": "PackedScene",
+          "spawnable": true
+        },
+        "metadata": {
+          "source": {
+            "game_id": "sunny_drift",
+            "run_id": "20261021",
+            "task_kind": "3d_object",
+            "task_id": "maps_v11_lookout",
+            "artifact_key": "glb_path"
+          },
+          "destination": "assets/imported/maps_v11/lookout",
+          "skeleton": "",
+          "skeleton_path": "",
+          "requested_skeleton": "",
+          "native_inspection": {
+            "animation_details": [],
+            "animations": [],
+            "error": "",
+            "instantiable": true,
+            "is_animation": false,
+            "is_animation_library": false,
+            "is_audio_stream": false,
+            "is_material": false,
+            "is_packed_scene": true,
+            "is_texture_2d": false,
+            "nodes": [
+              {
+                "class": "Node3D",
+                "name": "lookout",
+                "path": "."
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "deck",
+                "path": "deck"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "post_0_0",
+                "path": "post_0_0"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "post_0_1",
+                "path": "post_0_1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "post_1_0",
+                "path": "post_1_0"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "post_1_1",
+                "path": "post_1_1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "back_rail",
+                "path": "back_rail"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "side_a",
+                "path": "side_a"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "side_b",
+                "path": "side_b"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "deck_plank0",
+                "path": "deck_plank0"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "deck_plank1",
+                "path": "deck_plank1"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "deck_plank2",
+                "path": "deck_plank2"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "deck_plank3",
+                "path": "deck_plank3"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "deck_plank4",
+                "path": "deck_plank4"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "deck_plank5",
+                "path": "deck_plank5"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "deck_plank6",
+                "path": "deck_plank6"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "deck_plank7",
+                "path": "deck_plank7"
+              }
+            ],
+            "ok": true,
+            "resource_class": "PackedScene",
+            "resource_path": "res://assets/imported/maps_v11/lookout/model.glb",
+            "schema_version": "gamefactory3a.godot.resource_inspection.v1",
+            "skeletons": [],
+            "skinned_meshes": []
+          },
+          "options": {}
+        }
+      },
+      "visual_review": "evidence/maps_v11/20261026_192321_235936/",
+      "forward_axis": "-z",
+      "geometry": {
+        "size": [
+          10.0,
+          3.40000009536743,
+          7.0
+        ],
+        "triangles": 704,
+        "surfaces": 2
+      }
+    },
+    "map_mountain_gate": {
+      "size": 9.65,
+      "source": "authored_spec",
+      "license": "project-original",
+      "spec_task_id": "maps_v11_mountain_gate",
+      "enabled": true,
+      "size_axis": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "verified_by": "spec_and_native_visual",
+      "path": "res://assets/imported/maps_v11/mountain_gate/model.glb",
+      "artifact": {
+        "artifact_id": "godot_prop_maps_v11_mountain_gate_44353ea8fc",
+        "asset_id": "maps_v11_mountain_gate",
+        "package_id": "maps_v11_mountain_gate",
+        "type": "prop",
+        "representation": "packedscene",
+        "primary_asset": {
+          "backend": "godot",
+          "class": "PackedScene",
+          "path": "res://assets/imported/maps_v11/mountain_gate/model.glb"
+        },
+        "runtime_capabilities": {
+          "renderable": true,
+          "spawnable": true,
+          "collidable": false,
+          "playable": false
+        },
+        "backend": "godot",
+        "backend_class": "PackedScene",
+        "backend_path": "res://assets/imported/maps_v11/mountain_gate/model.glb",
+        "source_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261021\\assets\\3d_object\\maps_v11_mountain_gate\\model.glb",
+        "spawnable": true,
+        "state": "ready",
+        "editor_backend": {
+          "backend": "godot",
+          "path": "res://assets/imported/maps_v11/mountain_gate/model.glb"
+        },
+        "runtime": {
+          "path": "res://assets/imported/maps_v11/mountain_gate/model.glb",
+          "class": "PackedScene",
+          "spawnable": true
+        },
+        "metadata": {
+          "source": {
+            "game_id": "sunny_drift",
+            "run_id": "20261021",
+            "task_kind": "3d_object",
+            "task_id": "maps_v11_mountain_gate",
+            "artifact_key": "glb_path"
+          },
+          "destination": "assets/imported/maps_v11/mountain_gate",
+          "skeleton": "",
+          "skeleton_path": "",
+          "requested_skeleton": "",
+          "native_inspection": {
+            "animation_details": [],
+            "animations": [],
+            "error": "",
+            "instantiable": true,
+            "is_animation": false,
+            "is_animation_library": false,
+            "is_audio_stream": false,
+            "is_material": false,
+            "is_packed_scene": true,
+            "is_texture_2d": false,
+            "nodes": [
+              {
+                "class": "Node3D",
+                "name": "mountain gate",
+                "path": "."
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "left_pier",
+                "path": "left_pier"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "right_pier",
+                "path": "right_pier"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "arch_beam",
+                "path": "arch_beam"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "sign",
+                "path": "sign"
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "cap",
+                "path": "cap"
+              }
+            ],
+            "ok": true,
+            "resource_class": "PackedScene",
+            "resource_path": "res://assets/imported/maps_v11/mountain_gate/model.glb",
+            "schema_version": "gamefactory3a.godot.resource_inspection.v1",
+            "skeletons": [],
+            "skinned_meshes": []
+          },
+          "options": {}
+        }
+      },
+      "visual_review": "evidence/maps_v11/20261026_192321_235936/",
+      "forward_axis": "-z",
+      "geometry": {
+        "size": [
+          24.0623397827148,
+          9.65000057220459,
+          3.80987024307251
+        ],
+        "triangles": 220,
+        "surfaces": 5
+      }
+    },
+    "map_pine_tall": {
+      "size": 12,
+      "source": "Kenney Nature Kit 2.1",
+      "license": "CC0-1.0",
+      "source_url": "https://kenney.nl/assets/nature-kit",
+      "enabled": true,
+      "size_axis": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "verified_by": "native_visual",
+      "path": "res://assets/imported/maps_v11/pine_tall/model.glb",
+      "artifact": {
+        "artifact_id": "godot_prop_maps_v11_pine_tall_5b26e0fb06",
+        "asset_id": "maps_v11_pine_tall",
+        "package_id": "maps_v11_pine_tall",
+        "type": "prop",
+        "representation": "packedscene",
+        "primary_asset": {
+          "backend": "godot",
+          "class": "PackedScene",
+          "path": "res://assets/imported/maps_v11/pine_tall/model.glb"
+        },
+        "runtime_capabilities": {
+          "renderable": true,
+          "spawnable": true,
+          "collidable": false,
+          "playable": false
+        },
+        "backend": "godot",
+        "backend_class": "PackedScene",
+        "backend_path": "res://assets/imported/maps_v11/pine_tall/model.glb",
+        "source_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261021\\assets\\3d_object\\maps_v11_pine_tall\\model.glb",
+        "spawnable": true,
+        "state": "ready",
+        "editor_backend": {
+          "backend": "godot",
+          "path": "res://assets/imported/maps_v11/pine_tall/model.glb"
+        },
+        "runtime": {
+          "path": "res://assets/imported/maps_v11/pine_tall/model.glb",
+          "class": "PackedScene",
+          "spawnable": true
+        },
+        "metadata": {
+          "source": {
+            "game_id": "sunny_drift",
+            "run_id": "20261021",
+            "task_kind": "3d_object",
+            "task_id": "maps_v11_pine_tall",
+            "artifact_key": "glb_path"
+          },
+          "destination": "assets/imported/maps_v11/pine_tall",
+          "skeleton": "",
+          "skeleton_path": "",
+          "requested_skeleton": "",
+          "native_inspection": {
+            "animation_details": [],
+            "animations": [],
+            "error": "",
+            "instantiable": true,
+            "is_animation": false,
+            "is_animation_library": false,
+            "is_audio_stream": false,
+            "is_material": false,
+            "is_packed_scene": true,
+            "is_texture_2d": false,
+            "nodes": [
+              {
+                "class": "Node3D",
+                "name": "model",
+                "path": "."
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "tree_pineTallA",
+                "path": "tree_pineTallA"
+              }
+            ],
+            "ok": true,
+            "resource_class": "PackedScene",
+            "resource_path": "res://assets/imported/maps_v11/pine_tall/model.glb",
+            "schema_version": "gamefactory3a.godot.resource_inspection.v1",
+            "skeletons": [],
+            "skinned_meshes": []
+          },
+          "options": {}
+        }
+      },
+      "visual_review": "evidence/maps_v11/20261026_192321_235936/",
+      "forward_axis": "non_directional_scenery",
+      "geometry": {
+        "size": [
+          3.03037190437317,
+          12.0,
+          3.07490968704224
+        ],
+        "triangles": 78,
+        "surfaces": 2
+      }
+    },
+    "map_pine_round": {
+      "size": 8,
+      "source": "Kenney Nature Kit 2.1",
+      "license": "CC0-1.0",
+      "source_url": "https://kenney.nl/assets/nature-kit",
+      "enabled": true,
+      "size_axis": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "verified_by": "native_visual",
+      "path": "res://assets/imported/maps_v11/pine_round/model.glb",
+      "artifact": {
+        "artifact_id": "godot_prop_maps_v11_pine_round_4b9e32ef1e",
+        "asset_id": "maps_v11_pine_round",
+        "package_id": "maps_v11_pine_round",
+        "type": "prop",
+        "representation": "packedscene",
+        "primary_asset": {
+          "backend": "godot",
+          "class": "PackedScene",
+          "path": "res://assets/imported/maps_v11/pine_round/model.glb"
+        },
+        "runtime_capabilities": {
+          "renderable": true,
+          "spawnable": true,
+          "collidable": false,
+          "playable": false
+        },
+        "backend": "godot",
+        "backend_class": "PackedScene",
+        "backend_path": "res://assets/imported/maps_v11/pine_round/model.glb",
+        "source_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261021\\assets\\3d_object\\maps_v11_pine_round\\model.glb",
+        "spawnable": true,
+        "state": "ready",
+        "editor_backend": {
+          "backend": "godot",
+          "path": "res://assets/imported/maps_v11/pine_round/model.glb"
+        },
+        "runtime": {
+          "path": "res://assets/imported/maps_v11/pine_round/model.glb",
+          "class": "PackedScene",
+          "spawnable": true
+        },
+        "metadata": {
+          "source": {
+            "game_id": "sunny_drift",
+            "run_id": "20261021",
+            "task_kind": "3d_object",
+            "task_id": "maps_v11_pine_round",
+            "artifact_key": "glb_path"
+          },
+          "destination": "assets/imported/maps_v11/pine_round",
+          "skeleton": "",
+          "skeleton_path": "",
+          "requested_skeleton": "",
+          "native_inspection": {
+            "animation_details": [],
+            "animations": [],
+            "error": "",
+            "instantiable": true,
+            "is_animation": false,
+            "is_animation_library": false,
+            "is_audio_stream": false,
+            "is_material": false,
+            "is_packed_scene": true,
+            "is_texture_2d": false,
+            "nodes": [
+              {
+                "class": "Node3D",
+                "name": "model",
+                "path": "."
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "tree_pineRoundA",
+                "path": "tree_pineRoundA"
+              }
+            ],
+            "ok": true,
+            "resource_class": "PackedScene",
+            "resource_path": "res://assets/imported/maps_v11/pine_round/model.glb",
+            "schema_version": "gamefactory3a.godot.resource_inspection.v1",
+            "skeletons": [],
+            "skinned_meshes": []
+          },
+          "options": {}
+        }
+      },
+      "visual_review": "evidence/maps_v11/20261026_192321_235936/",
+      "forward_axis": "non_directional_scenery",
+      "geometry": {
+        "size": [
+          3.61242389678955,
+          8.0,
+          4.17126798629761
+        ],
+        "triangles": 204,
+        "surfaces": 2
+      }
+    },
+    "map_ridge_rock": {
+      "size": 7,
+      "source": "Kenney Nature Kit 2.1",
+      "license": "CC0-1.0",
+      "source_url": "https://kenney.nl/assets/nature-kit",
+      "enabled": true,
+      "size_axis": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "verified_by": "native_visual",
+      "path": "res://assets/imported/maps_v11/ridge_rock/model.glb",
+      "artifact": {
+        "artifact_id": "godot_prop_maps_v11_ridge_rock_3b20b71444",
+        "asset_id": "maps_v11_ridge_rock",
+        "package_id": "maps_v11_ridge_rock",
+        "type": "prop",
+        "representation": "packedscene",
+        "primary_asset": {
+          "backend": "godot",
+          "class": "PackedScene",
+          "path": "res://assets/imported/maps_v11/ridge_rock/model.glb"
+        },
+        "runtime_capabilities": {
+          "renderable": true,
+          "spawnable": true,
+          "collidable": false,
+          "playable": false
+        },
+        "backend": "godot",
+        "backend_class": "PackedScene",
+        "backend_path": "res://assets/imported/maps_v11/ridge_rock/model.glb",
+        "source_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261021\\assets\\3d_object\\maps_v11_ridge_rock\\model.glb",
+        "spawnable": true,
+        "state": "ready",
+        "editor_backend": {
+          "backend": "godot",
+          "path": "res://assets/imported/maps_v11/ridge_rock/model.glb"
+        },
+        "runtime": {
+          "path": "res://assets/imported/maps_v11/ridge_rock/model.glb",
+          "class": "PackedScene",
+          "spawnable": true
+        },
+        "metadata": {
+          "source": {
+            "game_id": "sunny_drift",
+            "run_id": "20261021",
+            "task_kind": "3d_object",
+            "task_id": "maps_v11_ridge_rock",
+            "artifact_key": "glb_path"
+          },
+          "destination": "assets/imported/maps_v11/ridge_rock",
+          "skeleton": "",
+          "skeleton_path": "",
+          "requested_skeleton": "",
+          "native_inspection": {
+            "animation_details": [],
+            "animations": [],
+            "error": "",
+            "instantiable": true,
+            "is_animation": false,
+            "is_animation_library": false,
+            "is_audio_stream": false,
+            "is_material": false,
+            "is_packed_scene": true,
+            "is_texture_2d": false,
+            "nodes": [
+              {
+                "class": "Node3D",
+                "name": "model",
+                "path": "."
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rock_largeA",
+                "path": "rock_largeA"
+              }
+            ],
+            "ok": true,
+            "resource_class": "PackedScene",
+            "resource_path": "res://assets/imported/maps_v11/ridge_rock/model.glb",
+            "schema_version": "gamefactory3a.godot.resource_inspection.v1",
+            "skeletons": [],
+            "skinned_meshes": []
+          },
+          "options": {}
+        }
+      },
+      "visual_review": "evidence/maps_v11/20261026_192321_235936/",
+      "forward_axis": "non_directional_scenery",
+      "geometry": {
+        "size": [
+          21.1495132446289,
+          6.99974012374878,
+          27.3618698120117
+        ],
+        "triangles": 80,
+        "surfaces": 2
+      }
+    },
+    "map_cliff": {
+      "size": 16,
+      "source": "Kenney Nature Kit 2.1",
+      "license": "CC0-1.0",
+      "source_url": "https://kenney.nl/assets/nature-kit",
+      "enabled": true,
+      "size_axis": 1,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "verified_by": "native_visual",
+      "path": "res://assets/imported/maps_v11/cliff/model.glb",
+      "artifact": {
+        "artifact_id": "godot_prop_maps_v11_cliff_e7193cde72",
+        "asset_id": "maps_v11_cliff",
+        "package_id": "maps_v11_cliff",
+        "type": "prop",
+        "representation": "packedscene",
+        "primary_asset": {
+          "backend": "godot",
+          "class": "PackedScene",
+          "path": "res://assets/imported/maps_v11/cliff/model.glb"
+        },
+        "runtime_capabilities": {
+          "renderable": true,
+          "spawnable": true,
+          "collidable": false,
+          "playable": false
+        },
+        "backend": "godot",
+        "backend_class": "PackedScene",
+        "backend_path": "res://assets/imported/maps_v11/cliff/model.glb",
+        "source_path": "${GAMEFACTORY_ROOT}\\test_data\\outputs\\sunny_drift\\20261021\\assets\\3d_object\\maps_v11_cliff\\model.glb",
+        "spawnable": true,
+        "state": "ready",
+        "editor_backend": {
+          "backend": "godot",
+          "path": "res://assets/imported/maps_v11/cliff/model.glb"
+        },
+        "runtime": {
+          "path": "res://assets/imported/maps_v11/cliff/model.glb",
+          "class": "PackedScene",
+          "spawnable": true
+        },
+        "metadata": {
+          "source": {
+            "game_id": "sunny_drift",
+            "run_id": "20261021",
+            "task_kind": "3d_object",
+            "task_id": "maps_v11_cliff",
+            "artifact_key": "glb_path"
+          },
+          "destination": "assets/imported/maps_v11/cliff",
+          "skeleton": "",
+          "skeleton_path": "",
+          "requested_skeleton": "",
+          "native_inspection": {
+            "animation_details": [],
+            "animations": [],
+            "error": "",
+            "instantiable": true,
+            "is_animation": false,
+            "is_animation_library": false,
+            "is_audio_stream": false,
+            "is_material": false,
+            "is_packed_scene": true,
+            "is_texture_2d": false,
+            "nodes": [
+              {
+                "class": "Node3D",
+                "name": "model",
+                "path": "."
+              },
+              {
+                "class": "MeshInstance3D",
+                "name": "rock_tallB",
+                "path": "rock_tallB"
+              }
+            ],
+            "ok": true,
+            "resource_class": "PackedScene",
+            "resource_path": "res://assets/imported/maps_v11/cliff/model.glb",
+            "schema_version": "gamefactory3a.godot.resource_inspection.v1",
+            "skeletons": [],
+            "skinned_meshes": []
+          },
+          "options": {}
+        }
+      },
+      "archive_entry": "Models/GLTF format/rock_tallB.glb",
+      "visual_review": "evidence/maps_v11/20261026_192321_235936/",
+      "forward_axis": "non_directional_scenery",
+      "geometry": {
+        "size": [
+          13.8457765579224,
+          16.0,
+          13.9408044815063
+        ],
+        "triangles": 172,
+        "surfaces": 3
+      }
+    },
+    "map_thumb_sunny_coast": {
+      "enabled": true,
+      "path": "res://assets/imported/maps_v11/thumb_sunny_coast/image.png",
+      "source": "native Godot viewport",
+      "source_capture": "evidence\\maps_v11\\20261026_192634_247748\\sunny_coast_clean.png",
+      "verified_by": "native_capture"
+    },
+    "map_thumb_harbor_loop": {
+      "enabled": true,
+      "path": "res://assets/imported/maps_v11/thumb_harbor_loop/image.png",
+      "source": "native Godot viewport",
+      "source_capture": "evidence\\maps_v11\\20261026_192634_247748\\harbor_loop_clean.png",
+      "verified_by": "native_capture"
+    },
+    "map_thumb_ridge_hairpins": {
+      "enabled": true,
+      "path": "res://assets/imported/maps_v11/thumb_ridge_hairpins/image.png",
+      "source": "native Godot viewport",
+      "source_capture": "evidence\\maps_v11\\20261026_192634_247748\\ridge_hairpins_clean.png",
+      "verified_by": "native_capture"
+    }
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "revision": 6,
+  "assets": {
+    "menu_coast": {
+      "enabled": true,
+      "path": "res://assets/imported/visual_v6/menu_coast.png",
+      "provider": "mivo",
+      "verified_by": "agent_vision"
+    },
+    "track_card": {
+      "enabled": true,
+      "path": "res://assets/imported/visual_v6/track_card.png",
+      "provider": "mivo",
+      "verified_by": "agent_vision"
+    },
+    "car_0": {
+      "path": "res://assets/imported/rig_v7/car_0.glb",
+      "enabled": true,
+      "rotation_degrees": [
+        0,
+        90,
+        0
+      ],
+      "size_axis": 2,
+      "size": 3.5,
+      "seat": [
+        0,
+        0.18,
+        0.0
+      ],
+      "driver_scale": 1.0,
+      "provider": "mivo",
+      "source_forward": "+x",
+      "verified_by": "agent_vision",
+      "wheel_radii": {
+        "WheelFrontLeft": 0.3869983561643836,
+        "WheelRearLeft": 0.3869808219178082,
+        "WheelFrontRight": 0.3869983561643836,
+        "WheelRearRight": 0.3835616438356164
+      },
+      "steering_control": {
+        "center": [
+          0,
+          0.94,
+          -0.03
+        ],
+        "radius": 0.235,
+        "max_angle_degrees": 32.0,
+        "source_center": [
+          0.0224609375,
+          0.0615234375,
+          0.0009765662252902985
+        ],
+        "source_radius": 0.05078023296708277
+      },
+      "driver_seat_offsets": {
+        "2": [
+          0,
+          0,
+          -0.09
+        ]
+      },
+      "vfx": {
+        "exhausts": [
+          [
+            -0.25,
+            0.37,
+            1.64,
+            0.12
+          ],
+          [
+            -0.09,
+            0.37,
+            1.64,
+            0.12
+          ],
+          [
+            0.08,
+            0.37,
+            1.64,
+            0.12
+          ],
+          [
+            0.24,
+            0.37,
+            1.64,
+            0.12
+          ]
+        ],
+        "notes": "Rear-view calibrated on V6/V7 meshes; four GT, three S, two under-bumper R outlets. Units: metres in normalized car space."
+      }
+    },
+    "car_1": {
+      "path": "res://assets/imported/rig_v7/car_1.glb",
+      "enabled": true,
+      "rotation_degrees": [
+        0,
+        90,
+        0
+      ],
+      "size_axis": 2,
+      "size": 3.65,
+      "seat": [
+        0,
+        0.24,
+        -0.04
+      ],
+      "driver_scale": 0.88,
+      "provider": "mivo",
+      "source_forward": "+x",
+      "verified_by": "agent_vision",
+      "wheel_radii": {
+        "WheelFrontLeft": 0.3392914285714286,
+        "WheelRearLeft": 0.38215314285714286,
+        "WheelFrontRight": 0.3392914285714286,
+        "WheelRearRight": 0.38215314285714286
+      },
+      "steering_control": {
+        "center": [
+          0,
+          0.94,
+          -0.03
+        ],
+        "radius": 0.235,
+        "max_angle_degrees": 32.0,
+        "source_center": [
+          0.06640625,
+          0.0341796875,
+          0.0
+        ],
+        "source_radius": 0.05176459073514485
+      },
+      "driver_seat_offsets": {
+        "2": [
+          0,
+          0,
+          -0.09
+        ]
+      },
+      "vfx": {
+        "exhausts": [
+          [
+            -0.24,
+            0.35,
+            1.64,
+            0.15
+          ],
+          [
+            0,
+            0.35,
+            1.64,
+            0.18
+          ],
+          [
+            0.24,
+            0.35,
+            1.64,
+            0.15
+          ]
+        ],
+        "notes": "Rear-view calibrated on V6/V7 meshes; four GT, three S, two under-bumper R outlets. Units: metres in normalized car space."
+      }
+    },
+    "driver_0": {
+      "path": "res://assets/imported/rig_v7/driver_0.glb",
+      "enabled": true,
+      "rotation_degrees": [
+        0,
+        90,
+        0
+      ],
+      "size_axis": 1,
+      "size": 1.22,
+      "provider": "mivo",
+      "source_forward": "+x",
+      "verified_by": "agent_vision",
+      "rigged": true
+    },
+    "driver_portrait_0": {
+      "path": "res://assets/imported/visual_v6/driver_portrait_0.png",
+      "enabled": true,
+      "provider": "mivo",
+      "derived_from": "driver_0"
+    },
+    "driver_portrait_1": {
+      "path": "res://assets/imported/visual_v6/driver_portrait_1.png",
+      "enabled": true,
+      "provider": "mivo",
+      "derived_from": "driver_1"
+    },
+    "driver_portrait_2": {
+      "path": "res://assets/imported/visual_v6/driver_portrait_2.png",
+      "enabled": true,
+      "provider": "mivo",
+      "derived_from": "driver_2"
+    },
+    "car_2": {
+      "path": "res://assets/imported/rig_v7/car_2.glb",
+      "enabled": true,
+      "rotation_degrees": [
+        0,
+        90,
+        0
+      ],
+      "size_axis": 2,
+      "size": 3.25,
+      "seat": [
+        0,
+        0.58,
+        -0.05
+      ],
+      "driver_scale": 1.0,
+      "provider": "mivo",
+      "source_forward": "+x",
+      "verified_by": "agent_vision",
+      "wheel_radii": {
+        "WheelFrontLeft": 0.4356684148727984,
+        "WheelRearLeft": 0.4388596477495108,
+        "WheelFrontRight": 0.4356684148727984,
+        "WheelRearRight": 0.4388596477495108
+      },
+      "steering_control": {
+        "center": [
+          0,
+          1.28,
+          -0.03
+        ],
+        "radius": 0.25,
+        "max_angle_degrees": 32.0,
+        "source_center": [
+          0.005859375,
+          0.08886718843132257,
+          -0.05371093563735485
+        ],
+        "source_radius": 0.07617329838913105
+      },
+      "driver_seat_offsets": {
+        "2": [
+          0,
+          0,
+          -0.09
+        ]
+      },
+      "vfx": {
+        "exhausts": [
+          [
+            -0.42,
+            0.55,
+            1.42,
+            0.14
+          ],
+          [
+            0.42,
+            0.55,
+            1.42,
+            0.14
+          ]
+        ],
+        "notes": "Rear-view calibrated on V6/V7 meshes; four GT, three S, two under-bumper R outlets. Units: metres in normalized car space."
+      }
+    },
+    "driver_1": {
+      "path": "res://assets/imported/rig_v7/driver_1.glb",
+      "enabled": true,
+      "rotation_degrees": [
+        0,
+        90,
+        0
+      ],
+      "size_axis": 1,
+      "size": 1.22,
+      "provider": "mivo",
+      "source_forward": "+x",
+      "verified_by": "agent_vision",
+      "rigged": true
+    },
+    "driver_2": {
+      "path": "res://assets/imported/rig_v7/driver_2.glb",
+      "enabled": true,
+      "rotation_degrees": [
+        0,
+        90,
+        0
+      ],
+      "size_axis": 1,
+      "size": 1.28,
+      "provider": "mivo",
+      "source_forward": "+x",
+      "verified_by": "agent_vision",
+      "rigged": true
+    },
+    "palm": {
+      "path": "res://assets/imported/visual_v6/palm.glb",
+      "enabled": true,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "size_axis": 1,
+      "size": 7.2,
+      "provider": "mivo",
+      "verified_by": "agent_vision",
+      "notes": "Fronds require two-sided rendering; trunk floor and all viewpoints checked."
+    },
+    "beach_hut": {
+      "path": "res://assets/imported/visual_v6/beach_hut.glb",
+      "enabled": true,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "size_axis": 1,
+      "size": 6.2,
+      "provider": "mivo",
+      "verified_by": "agent_vision",
+      "notes": "Reviewed silhouette, materials, backfaces, grounded base. Scenery has no gameplay facing."
+    },
+    "lighthouse": {
+      "path": "res://assets/imported/visual_v6/lighthouse.glb",
+      "enabled": true,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "size_axis": 1,
+      "size": 15.0,
+      "provider": "mivo",
+      "verified_by": "agent_vision",
+      "notes": "Reviewed silhouette, materials, backfaces, grounded base. Scenery has no gameplay facing."
+    },
+    "coastal_rocks": {
+      "path": "res://assets/imported/visual_v6/coastal_rocks.glb",
+      "enabled": true,
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "size_axis": 1,
+      "size": 3.8,
+      "provider": "mivo",
+      "verified_by": "agent_vision",
+      "notes": "Complete stone cluster, no inferred floor slab, textured back faces reviewed."
+    }
+  },
+  "effects_revision": 8,
+  "rig_revision": 7
+}

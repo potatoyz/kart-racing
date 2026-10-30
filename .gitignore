@@ -1,0 +1,20 @@
+# Generated state; source assets (including .glb and .import settings) are tracked.
+.godot/
+.a3game/
+__pycache__/
+*.py[cod]
+.venv/
+.tools/
+evidence/
+project/reports/
+project/builds/
+release/
+*.log
+*.zip
+.env
+.env.*
+*.pem
+*.key
+tools/vendor/test_data/
+.DS_Store
+Thumbs.db

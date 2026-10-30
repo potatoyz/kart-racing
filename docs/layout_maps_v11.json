@@ -1,0 +1,373 @@
+{
+  "schema_version": "gamefactory3a.genre_layout.v2",
+  "design_revision": 11,
+  "status": "implemented",
+  "genre": "racing",
+  "extends": "layout.json",
+  "canvas": {
+    "width": 1600,
+    "height": 900,
+    "units": "percent"
+  },
+  "palette": {
+    "ink": "#14384D",
+    "panel": "#14384D",
+    "accent": "#FFD05A",
+    "cyan": "#50C6B5",
+    "coral": "#EF8064",
+    "background": "#DCEDEB"
+  },
+  "templates": [
+    {
+      "id": "racing_garage_map_extension",
+      "screen_id": "S_GARAGE",
+      "chapter_ids": [
+        "C1_MAP"
+      ],
+      "regions": [
+        {
+          "id": "selected_track",
+          "rect": [
+            2.5,
+            83.3,
+            34,
+            12.7
+          ],
+          "action": "open_map_select",
+          "binding": "selected_track_id"
+        },
+        {
+          "id": "controls_hint",
+          "rect": [
+            38,
+            85,
+            23,
+            8
+          ]
+        },
+        {
+          "id": "start_speed",
+          "rect": [
+            63.4,
+            86.1,
+            15.5,
+            7.1
+          ],
+          "action": "start_speed"
+        },
+        {
+          "id": "start_item",
+          "rect": [
+            80.1,
+            86.1,
+            15.8,
+            7.1
+          ],
+          "action": "start_item"
+        }
+      ]
+    },
+    {
+      "id": "racing_map_select",
+      "screen_id": "S_MAP_SELECT",
+      "chapter_ids": [
+        "C1_MAP"
+      ],
+      "entry": "车库点击当前赛道卡",
+      "exit": "确认选择或取消返回车库",
+      "regions": [
+        {
+          "id": "title",
+          "rect": [
+            4,
+            4,
+            92,
+            7
+          ],
+          "text": "选择赛道"
+        },
+        {
+          "id": "description",
+          "rect": [
+            4,
+            12,
+            92,
+            5
+          ],
+          "text": "从长弯练习，到连续漂移，再到山岭发卡"
+        },
+        {
+          "id": "coast_card",
+          "rect": [
+            4,
+            22,
+            29.33,
+            54
+          ],
+          "track_id": "sunny_coast",
+          "title": "晴空海岸",
+          "difficulty": "初级",
+          "tags": [
+            "长弯练习",
+            "双跳台"
+          ],
+          "binding": "track_catalog"
+        },
+        {
+          "id": "harbor_card",
+          "rect": [
+            35.33,
+            22,
+            29.33,
+            54
+          ],
+          "track_id": "harbor_loop",
+          "title": "海湾港区",
+          "difficulty": "中级",
+          "tags": [
+            "连续换向",
+            "漂移接喷"
+          ],
+          "binding": "track_catalog"
+        },
+        {
+          "id": "ridge_card",
+          "rect": [
+            66.66,
+            22,
+            29.33,
+            54
+          ],
+          "track_id": "ridge_hairpins",
+          "title": "山岭发卡赛道",
+          "difficulty": "高级",
+          "tags": [
+            "弯前制动",
+            "出弯控线"
+          ],
+          "binding": "track_catalog"
+        },
+        {
+          "id": "selection_hint",
+          "rect": [
+            4,
+            79,
+            59,
+            8
+          ],
+          "text": "方向键切换 / Enter 确认 / Esc 返回"
+        },
+        {
+          "id": "cancel",
+          "rect": [
+            66,
+            87,
+            13,
+            8
+          ],
+          "text": "取消",
+          "action": "cancel_map_select"
+        },
+        {
+          "id": "confirm",
+          "rect": [
+            81,
+            87,
+            15,
+            8
+          ],
+          "text": "选择此赛道",
+          "action": "select_track"
+        }
+      ],
+      "states": {
+        "focus": "描边加焦点标记",
+        "selected": "已选择文字",
+        "error": "保留原图并显示失败原因及重试",
+        "cancel": "不改变已选图"
+      },
+      "bindings_status": "implemented_in_mechanic_contract_v4"
+    }
+  ],
+  "semantic_colors": [
+    {
+      "semantic_id": "road",
+      "meaning": "可驾驶路面",
+      "color": "#607D8B",
+      "secondary_cue": "连续道路带",
+      "applies_to": [
+        "A_HARBOR_ROAD",
+        "A_RIDGE_ROAD"
+      ],
+      "visibility": "player"
+    },
+    {
+      "semantic_id": "finish",
+      "meaning": "起终线",
+      "color": "#FFFFFF",
+      "secondary_cue": "黑白格",
+      "applies_to": [
+        "A_HARBOR_ROAD",
+        "A_RIDGE_ROAD"
+      ],
+      "visibility": "player"
+    },
+    {
+      "semantic_id": "turn",
+      "meaning": "弯道方向",
+      "color": "#EF9A3B",
+      "secondary_cue": "方向箭头",
+      "applies_to": [
+        "A_HARBOR_ROAD",
+        "A_RIDGE_ROAD"
+      ],
+      "visibility": "player"
+    },
+    {
+      "semantic_id": "ramp",
+      "meaning": "跳台",
+      "color": "#D4AD57",
+      "secondary_cue": "斜面与AIR文字",
+      "applies_to": [
+        "A_HARBOR_ROAD",
+        "A_RIDGE_ROAD"
+      ],
+      "visibility": "player"
+    },
+    {
+      "semantic_id": "item",
+      "meaning": "道具箱",
+      "color": "#9674C8",
+      "secondary_cue": "问号立方",
+      "applies_to": [
+        "A_SHARED"
+      ],
+      "visibility": "item_mode_only"
+    },
+    {
+      "semantic_id": "boost",
+      "meaning": "喷气",
+      "color": "#50C6B5",
+      "secondary_cue": "闪电图标",
+      "applies_to": [
+        "A_SHARED"
+      ],
+      "visibility": "player"
+    }
+  ],
+  "task_design_review": [
+    {
+      "item_id": "V11-01",
+      "chapter_id": "C1_MAP/C2_HARBOR/C2_RIDGE/C3_MAP",
+      "check": "输入、输出、依赖及完成条件已定义",
+      "status": "confirmed",
+      "reference": "tasks.json#V11-01",
+      "issue": "执行状态以tasks.json为准"
+    },
+    {
+      "item_id": "V11-02",
+      "chapter_id": "C2_HARBOR/C2_RIDGE",
+      "check": "输入、输出、依赖及完成条件已定义",
+      "status": "confirmed",
+      "reference": "tasks.json#V11-02",
+      "issue": "执行状态以tasks.json为准"
+    },
+    {
+      "item_id": "V11-03",
+      "chapter_id": "C1_MAP/C2_HARBOR/C2_RIDGE/C3_MAP",
+      "check": "输入、输出、依赖及完成条件已定义",
+      "status": "confirmed",
+      "reference": "tasks.json#V11-03",
+      "issue": "执行状态以tasks.json为准"
+    },
+    {
+      "item_id": "V11-04",
+      "chapter_id": "C1_MAP/C3_MAP",
+      "check": "输入、输出、依赖及完成条件已定义",
+      "status": "confirmed",
+      "reference": "tasks.json#V11-04",
+      "issue": "执行状态以tasks.json为准"
+    },
+    {
+      "item_id": "V11-05",
+      "chapter_id": "C1_MAP/C2_HARBOR/C2_RIDGE/C3_MAP",
+      "check": "输入、输出、依赖及完成条件已定义",
+      "status": "confirmed",
+      "reference": "tasks.json#V11-05",
+      "issue": "执行状态以tasks.json为准"
+    },
+    {
+      "item_id": "V11-06",
+      "chapter_id": "C2_HARBOR",
+      "check": "输入、输出、依赖及完成条件已定义",
+      "status": "confirmed",
+      "reference": "tasks.json#V11-06",
+      "issue": "执行状态以tasks.json为准"
+    },
+    {
+      "item_id": "V11-07",
+      "chapter_id": "C2_HARBOR/C2_RIDGE",
+      "check": "输入、输出、依赖及完成条件已定义",
+      "status": "confirmed",
+      "reference": "tasks.json#V11-07",
+      "issue": "执行状态以tasks.json为准"
+    },
+    {
+      "item_id": "V11-08",
+      "chapter_id": "C1_MAP/C2_HARBOR/C3_MAP",
+      "check": "输入、输出、依赖及完成条件已定义",
+      "status": "confirmed",
+      "reference": "tasks.json#V11-08",
+      "issue": "执行状态以tasks.json为准"
+    },
+    {
+      "item_id": "V11-09",
+      "chapter_id": "C2_RIDGE",
+      "check": "输入、输出、依赖及完成条件已定义",
+      "status": "confirmed",
+      "reference": "tasks.json#V11-09",
+      "issue": "执行状态以tasks.json为准"
+    },
+    {
+      "item_id": "V11-10",
+      "chapter_id": "C2_HARBOR/C2_RIDGE",
+      "check": "输入、输出、依赖及完成条件已定义",
+      "status": "confirmed",
+      "reference": "tasks.json#V11-10",
+      "issue": "执行状态以tasks.json为准"
+    },
+    {
+      "item_id": "V11-11",
+      "chapter_id": "C1_MAP/C2_HARBOR/C2_RIDGE/C3_MAP",
+      "check": "输入、输出、依赖及完成条件已定义",
+      "status": "confirmed",
+      "reference": "tasks.json#V11-11",
+      "issue": "执行状态以tasks.json为准"
+    },
+    {
+      "item_id": "V11-12",
+      "chapter_id": "C1_MAP/C2_HARBOR/C2_RIDGE/C3_MAP",
+      "check": "输入、输出、依赖及完成条件已定义",
+      "status": "confirmed",
+      "reference": "tasks.json#V11-12",
+      "issue": "执行状态以tasks.json为准"
+    },
+    {
+      "item_id": "V11-13",
+      "chapter_id": "C1_MAP/C2_HARBOR/C2_RIDGE/C3_MAP",
+      "check": "输入、输出、依赖及完成条件已定义",
+      "status": "confirmed",
+      "reference": "tasks.json#V11-13",
+      "issue": "执行状态以tasks.json为准"
+    }
+  ],
+  "review": {
+    "method": "static_layout_bounds_and_png_review",
+    "runtime_validation": "passed native 1280x720 and 1600x900 mouse/keyboard operations, thumbnail bounds and visual review",
+    "artifact": "evidence/maps_v11_plan/map_select_layout.png",
+    "final_reports": [
+      "evidence/maps_v11/20261026_194957_243144/report.json",
+      "evidence/maps_v11/20261026_195307_250752/report.json"
+    ]
+  }
+}

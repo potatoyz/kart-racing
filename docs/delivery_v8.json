@@ -1,0 +1,16 @@
+{
+  "source_package": "sunny_drift_vfx_v8_source.zip",
+  "bytes": 140578615,
+  "sha256": "39359f92e0210872da1bfc790426687f55b62f1862855dce7302862443f10742",
+  "native_test_groups": 12,
+  "before_after_events_identical": true,
+  "full_race_modes": [
+    "speed",
+    "item"
+  ],
+  "particle_cap": 512,
+  "mark_cap": 4096,
+  "extra_mean_frame_ms": 0.3906590411292301,
+  "stress_simulated_seconds": 600,
+  "paid_generation_calls": 0
+}

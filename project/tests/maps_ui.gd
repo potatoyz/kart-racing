@@ -1,0 +1,43 @@
+extends "res://tests/maps_record.gd"
+func run()->void:
+	for arg in OS.get_cmdline_user_args():
+		if arg.begins_with("--out="):output=arg.trim_prefix("--out=")
+	DirAccess.make_dir_recursive_absolute(output)
+	game=load("res://main.tscn").instantiate();root.add_child(game)
+	await wait_frames(15)
+	var race=game.race;var hud=game.get_node("Hud")
+	await click(hud.track_button)
+	check(hud.picker.visible,"mouse opens map picker")
+	for card in hud.picker.cards:
+		var photo:TextureRect=card.get_node("Thumbnail")
+		check(photo.get_rect().end.x<=card.size.x and photo.get_rect().end.y<325,"thumbnail stays inside image area without covering details")
+	await tap(KEY_RIGHT)
+	check(hud.picker.preview==1,"right key changes preview")
+	await tap(KEY_ESCAPE)
+	check(not hud.picker.visible and race.selected_track_id=="sunny_coast","cancel preserves current map")
+	check(hud.track_button.has_focus(),"cancel restores garage focus")
+	for index in 3:
+		var id:String=["sunny_coast","harbor_loop","ridge_hairpins"][index]
+		await click(hud.track_button)
+		await click(hud.picker.cards[index])
+		check(hud.picker.preview==index,"mouse previews "+id)
+		await shot(id+"_picker")
+		await tap(KEY_ENTER)
+		check(race.selected_track_id==id and not hud.picker.visible,"Enter applies "+id)
+		for mode in ["speed","item"]:
+			await click_text("竞速赛  →" if mode=="speed" else "道具赛  →")
+			check(race.phase=="countdown" and race.mode==mode,"native mode button "+id+mode)
+			await tap(KEY_ESCAPE)
+			check(race.paused,"Esc pauses countdown")
+			await shot(id+"_"+mode+"_pause")
+			await click_text("重新发车")
+			check(race.selected_track_id==id and race.mode==mode and not race.paused,"restart keeps selection")
+			check(race.snapshot().message=="","restart clears prior lap notices")
+			await tap(KEY_ESCAPE)
+			await click_text("返回车库")
+			check(race.phase=="garage","return to garage")
+	var file:=FileAccess.open(output+"/report.json",FileAccess.WRITE)
+	file.store_string(JSON.stringify({"ok":failures.is_empty(),"failures":failures,"actions":actions,"resolution":str(root.size),"driver":"native viewport mouse input and parsed keyboard events; no gameplay commands bypass the UI"},"  "));file.close()
+	print("MAPS_UI_COMPLETE ",JSON.stringify({"ok":failures.is_empty(),"checks":actions.size(),"failures":failures}))
+	game.free();preload("res://presentation/environments/map_props.gd").cache.clear()
+	quit(0 if failures.is_empty() else 1)

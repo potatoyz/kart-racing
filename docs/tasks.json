@@ -1,0 +1,2105 @@
+[
+  {
+    "id": "T1",
+    "title": "设计与布局",
+    "parent_id": "M1",
+    "chapter_id": "C1-C3",
+    "beat_ids": [
+      "garage",
+      "race",
+      "results"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7",
+      "R8",
+      "R9"
+    ],
+    "asset_ids": [
+      "A_TRACK",
+      "A_CARS",
+      "A_DRIVER",
+      "A_ITEM",
+      "A_FX",
+      "A_AUDIO"
+    ],
+    "screen_ids": [
+      "S_GARAGE",
+      "S_HUD",
+      "S_PAUSE",
+      "S_RESULT"
+    ],
+    "stage": "design",
+    "design_revision": 1,
+    "depends_on": [],
+    "owner": "root",
+    "inputs": [
+      "DESIGN.md"
+    ],
+    "outputs": [
+      "DESIGN.md",
+      "layout.json"
+    ],
+    "acceptance": [
+      "对应 DESIGN.md 验收条件与可复查证据"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "DESIGN.md"
+    ]
+  },
+  {
+    "id": "T2",
+    "title": "驾驶、比赛、AI、道具与契约",
+    "parent_id": "M1",
+    "chapter_id": "C1-C3",
+    "beat_ids": [
+      "garage",
+      "race",
+      "results"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7",
+      "R8",
+      "R9"
+    ],
+    "asset_ids": [
+      "A_TRACK",
+      "A_CARS",
+      "A_DRIVER",
+      "A_ITEM",
+      "A_FX",
+      "A_AUDIO"
+    ],
+    "screen_ids": [
+      "S_GARAGE",
+      "S_HUD",
+      "S_PAUSE",
+      "S_RESULT"
+    ],
+    "stage": "mechanic",
+    "design_revision": 1,
+    "depends_on": [
+      "T1"
+    ],
+    "owner": "root",
+    "inputs": [
+      "DESIGN.md"
+    ],
+    "outputs": [
+      "project/mechanic",
+      "mechanic_contract.json"
+    ],
+    "acceptance": [
+      "对应 DESIGN.md 验收条件与可复查证据"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/qa/report.json"
+    ]
+  },
+  {
+    "id": "T3",
+    "title": "模型呈现与原生菜单 HUD",
+    "parent_id": "M1",
+    "chapter_id": "C1-C3",
+    "beat_ids": [
+      "garage",
+      "race",
+      "results"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7",
+      "R8",
+      "R9"
+    ],
+    "asset_ids": [
+      "A_TRACK",
+      "A_CARS",
+      "A_DRIVER",
+      "A_ITEM",
+      "A_FX",
+      "A_AUDIO"
+    ],
+    "screen_ids": [
+      "S_GARAGE",
+      "S_HUD",
+      "S_PAUSE",
+      "S_RESULT"
+    ],
+    "stage": "ui",
+    "design_revision": 1,
+    "depends_on": [
+      "T2"
+    ],
+    "owner": "root",
+    "inputs": [
+      "DESIGN.md"
+    ],
+    "outputs": [
+      "project/presentation"
+    ],
+    "acceptance": [
+      "对应 DESIGN.md 验收条件与可复查证据"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/qa/report.json"
+    ]
+  },
+  {
+    "id": "T4",
+    "title": "Godot 组装",
+    "parent_id": "M1",
+    "chapter_id": "C1-C3",
+    "beat_ids": [
+      "garage",
+      "race",
+      "results"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7",
+      "R8",
+      "R9"
+    ],
+    "asset_ids": [
+      "A_TRACK",
+      "A_CARS",
+      "A_DRIVER",
+      "A_ITEM",
+      "A_FX",
+      "A_AUDIO"
+    ],
+    "screen_ids": [
+      "S_GARAGE",
+      "S_HUD",
+      "S_PAUSE",
+      "S_RESULT"
+    ],
+    "stage": "assembly",
+    "design_revision": 1,
+    "depends_on": [
+      "T3"
+    ],
+    "owner": "root",
+    "inputs": [
+      "DESIGN.md"
+    ],
+    "outputs": [
+      "project/project.godot",
+      "start_game.cmd"
+    ],
+    "acceptance": [
+      "对应 DESIGN.md 验收条件与可复查证据"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/qa/report.json"
+    ]
+  },
+  {
+    "id": "T5",
+    "title": "原生测试与完整录像验收",
+    "parent_id": "M1",
+    "chapter_id": "C1-C3",
+    "beat_ids": [
+      "garage",
+      "race",
+      "results"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7",
+      "R8",
+      "R9"
+    ],
+    "asset_ids": [
+      "A_TRACK",
+      "A_CARS",
+      "A_DRIVER",
+      "A_ITEM",
+      "A_FX",
+      "A_AUDIO"
+    ],
+    "screen_ids": [
+      "S_GARAGE",
+      "S_HUD",
+      "S_PAUSE",
+      "S_RESULT"
+    ],
+    "stage": "validation",
+    "design_revision": 1,
+    "depends_on": [
+      "T4"
+    ],
+    "owner": "root",
+    "inputs": [
+      "DESIGN.md"
+    ],
+    "outputs": [
+      "evidence/gameplay-review.mp4",
+      "evidence/qa/report.json",
+      "project/reports/tests.json",
+      "QA.md"
+    ],
+    "acceptance": [
+      "对应 DESIGN.md 验收条件与可复查证据"
+    ],
+    "status": "review",
+    "blocker": "白盒与驾驶 V2 自动验收完成；人工手感和音频听验仍待做。30/60/120 Hz 运动积分测试已通过。",
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/qa/report.json"
+    ]
+  },
+  {
+    "id": "T6",
+    "title": "成品美术替换",
+    "parent_id": "M1",
+    "chapter_id": "C1-C3",
+    "beat_ids": [
+      "garage",
+      "race",
+      "results"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7",
+      "R8",
+      "R9"
+    ],
+    "asset_ids": [
+      "A_TRACK",
+      "A_CARS",
+      "A_DRIVER",
+      "A_ITEM",
+      "A_FX",
+      "A_AUDIO"
+    ],
+    "screen_ids": [
+      "S_GARAGE",
+      "S_HUD",
+      "S_PAUSE",
+      "S_RESULT"
+    ],
+    "stage": "asset",
+    "design_revision": 1,
+    "depends_on": [
+      "T5"
+    ],
+    "owner": "root",
+    "inputs": [
+      "DESIGN.md"
+    ],
+    "outputs": [
+      "project/assets/imported/visual_v6",
+      "project/presentation",
+      "VISUAL_V6.md",
+      "QA_VISUAL_V6.md"
+    ],
+    "acceptance": [
+      "对应 DESIGN.md 验收条件与可复查证据"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/visual_qa/report.json",
+      "evidence/qa/report.json",
+      "QA_VISUAL_V6.md"
+    ]
+  },
+  {
+    "id": "V2-1",
+    "title": "连续漂移与反打回正",
+    "parent_id": "V2",
+    "chapter_id": "C2",
+    "beat_ids": [
+      "drift",
+      "spray",
+      "jump",
+      "land"
+    ],
+    "requirement_ids": [
+      "R2",
+      "R3",
+      "R8"
+    ],
+    "asset_ids": [
+      "A_TRACK",
+      "A_FX"
+    ],
+    "screen_ids": [
+      "S_HUD",
+      "S_PAUSE"
+    ],
+    "stage": "mechanic",
+    "design_revision": 2,
+    "depends_on": [],
+    "owner": "root",
+    "inputs": [
+      "DRIVING_V2.md"
+    ],
+    "outputs": [
+      "project/mechanic/vehicle.gd",
+      "project/mechanic/techniques.gd",
+      "project/presentation/ramp.gd",
+      "QA_DRIVING_V2.md"
+    ],
+    "acceptance": [
+      "DRIVING_V2.md 对应逐项验收"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/skills_qa/report.json",
+      "evidence/qa/report.json",
+      "evidence/skills-review.mp4",
+      "evidence/gameplay-review.mp4"
+    ]
+  },
+  {
+    "id": "V2-2",
+    "title": "限时喷气与组合输入",
+    "parent_id": "V2",
+    "chapter_id": "C2",
+    "beat_ids": [
+      "drift",
+      "spray",
+      "jump",
+      "land"
+    ],
+    "requirement_ids": [
+      "R2",
+      "R3",
+      "R8"
+    ],
+    "asset_ids": [
+      "A_TRACK",
+      "A_FX"
+    ],
+    "screen_ids": [
+      "S_HUD",
+      "S_PAUSE"
+    ],
+    "stage": "mechanic",
+    "design_revision": 2,
+    "depends_on": [
+      "V2-1"
+    ],
+    "owner": "root",
+    "inputs": [
+      "DRIVING_V2.md"
+    ],
+    "outputs": [
+      "project/mechanic/vehicle.gd",
+      "project/mechanic/techniques.gd",
+      "project/presentation/ramp.gd",
+      "QA_DRIVING_V2.md"
+    ],
+    "acceptance": [
+      "DRIVING_V2.md 对应逐项验收"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/skills_qa/report.json",
+      "evidence/qa/report.json",
+      "evidence/skills-review.mp4",
+      "evidence/gameplay-review.mp4"
+    ]
+  },
+  {
+    "id": "V2-3",
+    "title": "跳台、真实腾空与安全复位",
+    "parent_id": "V2",
+    "chapter_id": "C2",
+    "beat_ids": [
+      "drift",
+      "spray",
+      "jump",
+      "land"
+    ],
+    "requirement_ids": [
+      "R2",
+      "R3",
+      "R8"
+    ],
+    "asset_ids": [
+      "A_TRACK",
+      "A_FX"
+    ],
+    "screen_ids": [
+      "S_HUD",
+      "S_PAUSE"
+    ],
+    "stage": "assembly",
+    "design_revision": 2,
+    "depends_on": [
+      "V2-1"
+    ],
+    "owner": "root",
+    "inputs": [
+      "DRIVING_V2.md"
+    ],
+    "outputs": [
+      "project/mechanic/vehicle.gd",
+      "project/mechanic/techniques.gd",
+      "project/presentation/ramp.gd",
+      "QA_DRIVING_V2.md"
+    ],
+    "acceptance": [
+      "DRIVING_V2.md 对应逐项验收"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/skills_qa/report.json",
+      "evidence/qa/report.json",
+      "evidence/skills-review.mp4",
+      "evidence/gameplay-review.mp4"
+    ]
+  },
+  {
+    "id": "V2-4",
+    "title": "技巧窗口 HUD、相机与按键",
+    "parent_id": "V2",
+    "chapter_id": "C2",
+    "beat_ids": [
+      "drift",
+      "spray",
+      "jump",
+      "land"
+    ],
+    "requirement_ids": [
+      "R2",
+      "R3",
+      "R8"
+    ],
+    "asset_ids": [
+      "A_TRACK",
+      "A_FX"
+    ],
+    "screen_ids": [
+      "S_HUD",
+      "S_PAUSE"
+    ],
+    "stage": "ui",
+    "design_revision": 2,
+    "depends_on": [
+      "V2-1"
+    ],
+    "owner": "root",
+    "inputs": [
+      "DRIVING_V2.md"
+    ],
+    "outputs": [
+      "project/mechanic/vehicle.gd",
+      "project/mechanic/techniques.gd",
+      "project/presentation/ramp.gd",
+      "QA_DRIVING_V2.md"
+    ],
+    "acceptance": [
+      "DRIVING_V2.md 对应逐项验收"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/skills_qa/report.json",
+      "evidence/qa/report.json",
+      "evidence/skills-review.mp4",
+      "evidence/gameplay-review.mp4"
+    ]
+  },
+  {
+    "id": "V2-5",
+    "title": "原生技巧验证、双模式回归与视频",
+    "parent_id": "V2",
+    "chapter_id": "C2",
+    "beat_ids": [
+      "drift",
+      "spray",
+      "jump",
+      "land"
+    ],
+    "requirement_ids": [
+      "R2",
+      "R3",
+      "R8"
+    ],
+    "asset_ids": [
+      "A_TRACK",
+      "A_FX"
+    ],
+    "screen_ids": [
+      "S_HUD",
+      "S_PAUSE"
+    ],
+    "stage": "validation",
+    "design_revision": 2,
+    "depends_on": [
+      "V2-1"
+    ],
+    "owner": "root",
+    "inputs": [
+      "DRIVING_V2.md"
+    ],
+    "outputs": [
+      "project/mechanic/vehicle.gd",
+      "project/mechanic/techniques.gd",
+      "project/presentation/ramp.gd",
+      "QA_DRIVING_V2.md"
+    ],
+    "acceptance": [
+      "DRIVING_V2.md 对应逐项验收"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/skills_qa/report.json",
+      "evidence/qa/report.json",
+      "evidence/skills-review.mp4",
+      "evidence/gameplay-review.mp4"
+    ]
+  },
+  {
+    "id": "V3-1",
+    "title": "连续曲线路面、路肩及护栏",
+    "parent_id": "V3",
+    "chapter_id": "C2",
+    "beat_ids": [
+      "drive",
+      "drift",
+      "jump",
+      "land"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R2",
+      "R8"
+    ],
+    "asset_ids": [
+      "A_TRACK"
+    ],
+    "screen_ids": [
+      "S_HUD"
+    ],
+    "stage": "assembly",
+    "design_revision": 3,
+    "depends_on": [],
+    "owner": "root",
+    "inputs": [
+      "TRACK_V3.md"
+    ],
+    "outputs": [
+      "project/presentation/track_surface.gd",
+      "project/mechanic/course.gd",
+      "QA_TRACK_V3.md"
+    ],
+    "acceptance": [
+      "TRACK_V3.md 对应验收项"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/boundary_qa/report.json",
+      "evidence/qa/report.json",
+      "evidence/skills_qa/report.json"
+    ]
+  },
+  {
+    "id": "V3-2",
+    "title": "闭合空气墙与相机碰撞分层",
+    "parent_id": "V3",
+    "chapter_id": "C2",
+    "beat_ids": [
+      "drive",
+      "drift",
+      "jump",
+      "land"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R2",
+      "R8"
+    ],
+    "asset_ids": [
+      "A_TRACK"
+    ],
+    "screen_ids": [
+      "S_HUD"
+    ],
+    "stage": "assembly",
+    "design_revision": 3,
+    "depends_on": [
+      "V3-1"
+    ],
+    "owner": "root",
+    "inputs": [
+      "TRACK_V3.md"
+    ],
+    "outputs": [
+      "project/presentation/track_surface.gd",
+      "project/mechanic/course.gd",
+      "QA_TRACK_V3.md"
+    ],
+    "acceptance": [
+      "TRACK_V3.md 对应验收项"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/boundary_qa/report.json",
+      "evidence/qa/report.json",
+      "evidence/skills_qa/report.json"
+    ]
+  },
+  {
+    "id": "V3-3",
+    "title": "连续弧面贴墙滑动",
+    "parent_id": "V3",
+    "chapter_id": "C2",
+    "beat_ids": [
+      "drive",
+      "drift",
+      "jump",
+      "land"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R2",
+      "R8"
+    ],
+    "asset_ids": [
+      "A_TRACK"
+    ],
+    "screen_ids": [
+      "S_HUD"
+    ],
+    "stage": "assembly",
+    "design_revision": 3,
+    "depends_on": [
+      "V3-1"
+    ],
+    "owner": "root",
+    "inputs": [
+      "TRACK_V3.md"
+    ],
+    "outputs": [
+      "project/presentation/track_surface.gd",
+      "project/mechanic/course.gd",
+      "QA_TRACK_V3.md"
+    ],
+    "acceptance": [
+      "TRACK_V3.md 对应验收项"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/boundary_qa/report.json",
+      "evidence/qa/report.json",
+      "evidence/skills_qa/report.json"
+    ]
+  },
+  {
+    "id": "V3-4",
+    "title": "几何、碰撞及完整比赛回归",
+    "parent_id": "V3",
+    "chapter_id": "C2",
+    "beat_ids": [
+      "drive",
+      "drift",
+      "jump",
+      "land"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R2",
+      "R8"
+    ],
+    "asset_ids": [
+      "A_TRACK"
+    ],
+    "screen_ids": [
+      "S_HUD"
+    ],
+    "stage": "validation",
+    "design_revision": 3,
+    "depends_on": [
+      "V3-1"
+    ],
+    "owner": "root",
+    "inputs": [
+      "TRACK_V3.md"
+    ],
+    "outputs": [
+      "project/presentation/track_surface.gd",
+      "project/mechanic/course.gd",
+      "QA_TRACK_V3.md"
+    ],
+    "acceptance": [
+      "TRACK_V3.md 对应验收项"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/boundary_qa/report.json",
+      "evidence/qa/report.json",
+      "evidence/skills_qa/report.json"
+    ]
+  },
+  {
+    "id": "V4-1",
+    "title": "测量普通转向与松键拖尾",
+    "parent_id": "V4",
+    "chapter_id": "C2",
+    "beat_ids": [
+      "steer",
+      "release",
+      "countersteer",
+      "drift"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R2"
+    ],
+    "asset_ids": [
+      "A_CARS"
+    ],
+    "screen_ids": [
+      "S_HUD"
+    ],
+    "stage": "validation",
+    "design_revision": 4,
+    "depends_on": [],
+    "owner": "root",
+    "inputs": [
+      "HANDLING_V4.md"
+    ],
+    "outputs": [
+      "project/mechanic/vehicle.gd",
+      "project/presentation/view.gd",
+      "QA_RESPONSE_V4.md"
+    ],
+    "acceptance": [
+      "HANDLING_V4.md 对应验收项"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "history/v3/response-baseline-test.json",
+      "evidence/response-v4.json",
+      "project/reports/tests.json",
+      "evidence/skills_qa/report.json",
+      "evidence/qa/report.json"
+    ]
+  },
+  {
+    "id": "V4-2",
+    "title": "分离普通抓地与漂移响应",
+    "parent_id": "V4",
+    "chapter_id": "C2",
+    "beat_ids": [
+      "steer",
+      "release",
+      "countersteer",
+      "drift"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R2"
+    ],
+    "asset_ids": [
+      "A_CARS"
+    ],
+    "screen_ids": [
+      "S_HUD"
+    ],
+    "stage": "mechanic",
+    "design_revision": 4,
+    "depends_on": [
+      "V4-1"
+    ],
+    "owner": "root",
+    "inputs": [
+      "HANDLING_V4.md"
+    ],
+    "outputs": [
+      "project/mechanic/vehicle.gd",
+      "project/presentation/view.gd",
+      "QA_RESPONSE_V4.md"
+    ],
+    "acceptance": [
+      "HANDLING_V4.md 对应验收项"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "history/v3/response-baseline-test.json",
+      "evidence/response-v4.json",
+      "project/reports/tests.json",
+      "evidence/skills_qa/report.json",
+      "evidence/qa/report.json"
+    ]
+  },
+  {
+    "id": "V4-3",
+    "title": "缩短镜头附加延迟",
+    "parent_id": "V4",
+    "chapter_id": "C2",
+    "beat_ids": [
+      "steer",
+      "release",
+      "countersteer",
+      "drift"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R2"
+    ],
+    "asset_ids": [
+      "A_CARS"
+    ],
+    "screen_ids": [
+      "S_HUD"
+    ],
+    "stage": "ui",
+    "design_revision": 4,
+    "depends_on": [
+      "V4-1"
+    ],
+    "owner": "root",
+    "inputs": [
+      "HANDLING_V4.md"
+    ],
+    "outputs": [
+      "project/mechanic/vehicle.gd",
+      "project/presentation/view.gd",
+      "QA_RESPONSE_V4.md"
+    ],
+    "acceptance": [
+      "HANDLING_V4.md 对应验收项"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "history/v3/response-baseline-test.json",
+      "evidence/response-v4.json",
+      "project/reports/tests.json",
+      "evidence/skills_qa/report.json",
+      "evidence/qa/report.json"
+    ]
+  },
+  {
+    "id": "V4-4",
+    "title": "技巧与两种比赛回归",
+    "parent_id": "V4",
+    "chapter_id": "C2",
+    "beat_ids": [
+      "steer",
+      "release",
+      "countersteer",
+      "drift"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R2"
+    ],
+    "asset_ids": [
+      "A_CARS"
+    ],
+    "screen_ids": [
+      "S_HUD"
+    ],
+    "stage": "validation",
+    "design_revision": 4,
+    "depends_on": [
+      "V4-1"
+    ],
+    "owner": "root",
+    "inputs": [
+      "HANDLING_V4.md"
+    ],
+    "outputs": [
+      "project/mechanic/vehicle.gd",
+      "project/presentation/view.gd",
+      "QA_RESPONSE_V4.md"
+    ],
+    "acceptance": [
+      "HANDLING_V4.md 对应验收项"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "history/v3/response-baseline-test.json",
+      "evidence/response-v4.json",
+      "project/reports/tests.json",
+      "evidence/skills_qa/report.json",
+      "evidence/qa/report.json"
+    ]
+  },
+  {
+    "id": "V5-1",
+    "title": "逐帧复现收漂接喷镜头跳变",
+    "parent_id": "V5",
+    "chapter_id": "C2",
+    "beat_ids": [
+      "drift",
+      "spray",
+      "camera_follow"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "asset_ids": [
+      "A_CARS"
+    ],
+    "screen_ids": [
+      "S_HUD"
+    ],
+    "stage": "validation",
+    "design_revision": 5,
+    "depends_on": [],
+    "owner": "root",
+    "inputs": [
+      "CAMERA_V5.md"
+    ],
+    "outputs": [
+      "project/presentation/chase_heading.gd",
+      "project/presentation/view.gd",
+      "QA_CAMERA_V5.md"
+    ],
+    "acceptance": [
+      "CAMERA_V5.md 对应验收项"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "history/v4/camera-before/camera-check.json",
+      "evidence/camera_qa/camera-check.json",
+      "project/reports/tests.json",
+      "evidence/skills_qa/report.json",
+      "evidence/qa/report.json"
+    ]
+  },
+  {
+    "id": "V5-2",
+    "title": "连续偏角过渡及统一视觉姿态",
+    "parent_id": "V5",
+    "chapter_id": "C2",
+    "beat_ids": [
+      "drift",
+      "spray",
+      "camera_follow"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "asset_ids": [
+      "A_CARS"
+    ],
+    "screen_ids": [
+      "S_HUD"
+    ],
+    "stage": "ui",
+    "design_revision": 5,
+    "depends_on": [
+      "V5-1"
+    ],
+    "owner": "root",
+    "inputs": [
+      "CAMERA_V5.md"
+    ],
+    "outputs": [
+      "project/presentation/chase_heading.gd",
+      "project/presentation/view.gd",
+      "QA_CAMERA_V5.md"
+    ],
+    "acceptance": [
+      "CAMERA_V5.md 对应验收项"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "history/v4/camera-before/camera-check.json",
+      "evidence/camera_qa/camera-check.json",
+      "project/reports/tests.json",
+      "evidence/skills_qa/report.json",
+      "evidence/qa/report.json"
+    ]
+  },
+  {
+    "id": "V5-3",
+    "title": "镜头、转向响应和比赛回归",
+    "parent_id": "V5",
+    "chapter_id": "C2",
+    "beat_ids": [
+      "drift",
+      "spray",
+      "camera_follow"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "asset_ids": [
+      "A_CARS"
+    ],
+    "screen_ids": [
+      "S_HUD"
+    ],
+    "stage": "validation",
+    "design_revision": 5,
+    "depends_on": [
+      "V5-1"
+    ],
+    "owner": "root",
+    "inputs": [
+      "CAMERA_V5.md"
+    ],
+    "outputs": [
+      "project/presentation/chase_heading.gd",
+      "project/presentation/view.gd",
+      "QA_CAMERA_V5.md"
+    ],
+    "acceptance": [
+      "CAMERA_V5.md 对应验收项"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "history/v4/camera-before/camera-check.json",
+      "evidence/camera_qa/camera-check.json",
+      "project/reports/tests.json",
+      "evidence/skills_qa/report.json",
+      "evidence/qa/report.json"
+    ]
+  },
+  {
+    "id": "V6-1",
+    "title": "Mivo 图片与十个模型生成和导入",
+    "parent_id": "V6",
+    "chapter_id": "C1-C3",
+    "stage": "asset",
+    "design_revision": 6,
+    "owner": "root",
+    "depends_on": [],
+    "outputs": [
+      "ASSET_PROVENANCE.json",
+      "project/assets/imported/visual_v6"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/visual_qa/report.json",
+      "evidence/qa/report.json",
+      "QA_VISUAL_V6.md"
+    ]
+  },
+  {
+    "id": "V6-2",
+    "title": "车手适配、轮组动画与海岸场景",
+    "parent_id": "V6",
+    "chapter_id": "C1-C3",
+    "stage": "assembly",
+    "design_revision": 6,
+    "owner": "root",
+    "depends_on": [
+      "V6-1"
+    ],
+    "outputs": [
+      "project/presentation/generated_assets.gd",
+      "project/assets/visual_v6.json"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/visual_qa/report.json",
+      "evidence/qa/report.json",
+      "QA_VISUAL_V6.md"
+    ]
+  },
+  {
+    "id": "V6-3",
+    "title": "主界面、展台、暂停和结算美化",
+    "parent_id": "V6",
+    "chapter_id": "C1-C3",
+    "stage": "ui",
+    "design_revision": 6,
+    "owner": "root",
+    "depends_on": [
+      "V6-1"
+    ],
+    "outputs": [
+      "project/presentation/hud.gd",
+      "project/presentation/showroom.gd"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/visual_qa/report.json",
+      "evidence/qa/report.json",
+      "QA_VISUAL_V6.md"
+    ]
+  },
+  {
+    "id": "V6-4",
+    "title": "全组合、双模式和原生界面验收",
+    "parent_id": "V6",
+    "chapter_id": "C1-C3",
+    "stage": "validation",
+    "design_revision": 6,
+    "owner": "root",
+    "depends_on": [
+      "V6-1"
+    ],
+    "outputs": [
+      "QA_VISUAL_V6.md",
+      "evidence/visual-v6-racing.mp4"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/visual_qa/report.json",
+      "evidence/qa/report.json",
+      "QA_VISUAL_V6.md"
+    ]
+  },
+  {
+    "id": "V7-1",
+    "title": "便携 Blender 与独立标定、绑骨",
+    "parent_id": "V7",
+    "chapter_id": "C1-C3",
+    "design_revision": 7,
+    "owner": "root",
+    "depends_on": [],
+    "status": "done",
+    "blocker": "",
+    "outputs": [
+      "project/assets/imported/rig_v7",
+      "project/presentation/driver_ik.gd",
+      "QA_RIG_V7.md"
+    ],
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/rig_v7/qa/report.json",
+      "evidence/qa/report.json"
+    ]
+  },
+  {
+    "id": "V7-2",
+    "title": "方向盘分离与双臂 IK 接入",
+    "parent_id": "V7",
+    "chapter_id": "C1-C3",
+    "design_revision": 7,
+    "owner": "root",
+    "depends_on": [
+      "V7-1"
+    ],
+    "status": "done",
+    "blocker": "",
+    "outputs": [
+      "project/assets/imported/rig_v7",
+      "project/presentation/driver_ik.gd",
+      "QA_RIG_V7.md"
+    ],
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/rig_v7/qa/report.json",
+      "evidence/qa/report.json"
+    ]
+  },
+  {
+    "id": "V7-3",
+    "title": "九组合动态验证与完整比赛回归",
+    "parent_id": "V7",
+    "chapter_id": "C1-C3",
+    "design_revision": 7,
+    "owner": "root",
+    "depends_on": [
+      "V7-2"
+    ],
+    "status": "done",
+    "blocker": "",
+    "outputs": [
+      "project/assets/imported/rig_v7",
+      "project/presentation/driver_ik.gd",
+      "QA_RIG_V7.md"
+    ],
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/rig_v7/qa/report.json",
+      "evidence/qa/report.json"
+    ]
+  },
+  {
+    "id": "V8-1",
+    "title": "独立排气口与分层喷流、连喷脉冲",
+    "parent_id": "V8",
+    "chapter_id": "C2",
+    "design_revision": 8,
+    "owner": "root",
+    "depends_on": [],
+    "status": "done",
+    "blocker": "",
+    "outputs": [
+      "project/presentation/vfx",
+      "QA_VFX_V8.md"
+    ],
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/vfx_v8/comparison.json",
+      "evidence/vfx_v8/check.json",
+      "evidence/vfx_v8/performance.json",
+      "evidence/qa/report.json"
+    ]
+  },
+  {
+    "id": "V8-2",
+    "title": "连续贴地胎痕及有上限的烟尘/光粒池",
+    "parent_id": "V8",
+    "chapter_id": "C2",
+    "design_revision": 8,
+    "owner": "root",
+    "depends_on": [
+      "V8-1"
+    ],
+    "status": "done",
+    "blocker": "",
+    "outputs": [
+      "project/presentation/vfx",
+      "QA_VFX_V8.md"
+    ],
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/vfx_v8/comparison.json",
+      "evidence/vfx_v8/check.json",
+      "evidence/vfx_v8/performance.json",
+      "evidence/qa/report.json"
+    ]
+  },
+  {
+    "id": "V8-3",
+    "title": "六车、低动态、生命周期与完整比赛验证",
+    "parent_id": "V8",
+    "chapter_id": "C2",
+    "design_revision": 8,
+    "owner": "root",
+    "depends_on": [
+      "V8-2"
+    ],
+    "status": "done",
+    "blocker": "",
+    "outputs": [
+      "project/presentation/vfx",
+      "QA_VFX_V8.md"
+    ],
+    "evidence": [
+      "project/reports/tests.json",
+      "evidence/vfx_v8/comparison.json",
+      "evidence/vfx_v8/check.json",
+      "evidence/vfx_v8/performance.json",
+      "evidence/qa/report.json"
+    ]
+  },
+  {
+    "id": "V11-01",
+    "title": "两张新图规划、布局与验收映射",
+    "parent_id": "V11",
+    "chapter_id": "C1_MAP/C2_HARBOR/C2_RIDGE/C3_MAP",
+    "beat_ids": [
+      "select_map",
+      "H1-H6",
+      "A1-A7",
+      "results"
+    ],
+    "requirement_ids": [
+      "MAP-R1",
+      "MAP-R2",
+      "MAP-R3",
+      "MAP-R4",
+      "MAP-R5",
+      "MAP-R6",
+      "MAP-R7",
+      "MAP-R8",
+      "MAP-R9",
+      "MAP-R10"
+    ],
+    "asset_ids": [
+      "A_SHARED",
+      "A_HARBOR_ROAD",
+      "A_RIDGE_ROAD",
+      "A_HARBOR_SET",
+      "A_RIDGE_SET",
+      "A_MAP_CARDS"
+    ],
+    "screen_ids": [
+      "S_GARAGE",
+      "S_MAP_SELECT",
+      "S_HUD",
+      "S_PAUSE",
+      "S_RESULT"
+    ],
+    "stage": "design",
+    "design_revision": 11,
+    "depends_on": [],
+    "owner": "root",
+    "inputs": [
+      "MAP_EXPANSION_V11.md"
+    ],
+    "outputs": [
+      "MAP_EXPANSION_V11.md",
+      "layout_maps_v11.json",
+      "tasks.json",
+      "evidence/maps_v11_plan/map_select_layout.png"
+    ],
+    "acceptance": [
+      "用户已选择港区中级、山岭高级主题",
+      "完成路线节奏、技术风险、资产页面与任务逐项核对",
+      "布局静态预览和依赖/引用校验通过；仅规划完成"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "MAP_EXPANSION_V11.md",
+      "layout_maps_v11.json"
+    ]
+  },
+  {
+    "id": "V11-02",
+    "title": "地图目录、参数化道路与动态检查点",
+    "parent_id": "V11",
+    "chapter_id": "C2_HARBOR/C2_RIDGE",
+    "beat_ids": [
+      "track_definition",
+      "gates",
+      "reset"
+    ],
+    "requirement_ids": [
+      "MAP-R1",
+      "MAP-R5",
+      "MAP-R6",
+      "MAP-R10"
+    ],
+    "asset_ids": [
+      "A_SHARED",
+      "A_HARBOR_ROAD",
+      "A_RIDGE_ROAD"
+    ],
+    "screen_ids": [],
+    "stage": "mechanic",
+    "design_revision": 11,
+    "depends_on": [
+      "V11-01"
+    ],
+    "owner": "root",
+    "inputs": [
+      "MAP_EXPANSION_V11.md",
+      "project/mechanic/course.gd",
+      "project/mechanic/race.gd",
+      "TRACK_V3.md",
+      "run.py"
+    ],
+    "outputs": [
+      "project/mechanic/tracks/",
+      "project/mechanic/course.gd",
+      "project/mechanic/race.gd",
+      "project/presentation/track_surface.gd",
+      "project/presentation/ramp.gd",
+      "project/tests/test_track_geometry.gd"
+    ],
+    "acceptance": [
+      "先记录当前测试结果、海岸几何与可复查快照",
+      "旧海岸公式、截面与门序保持兼容；新增赛道可定义独立宽度和门数",
+      "承重面、空气墙、跳台参数同源；闭合/自交/偏移网格检查通过",
+      "取消固定96/8/12的计圈、排名、复位假设；近路段查询受合法进度区间约束"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "evidence/maps_v11/20261026_195942_247100/tests.json",
+      "evidence/maps_v11/20261026_185707_247656/report.json"
+    ]
+  },
+  {
+    "id": "V11-03",
+    "title": "活动地图注入与安全切换",
+    "parent_id": "V11",
+    "chapter_id": "C1_MAP/C2_HARBOR/C2_RIDGE/C3_MAP",
+    "beat_ids": [
+      "select_map",
+      "load_map",
+      "restart"
+    ],
+    "requirement_ids": [
+      "MAP-R1",
+      "MAP-R8",
+      "MAP-R10"
+    ],
+    "asset_ids": [
+      "A_SHARED",
+      "A_HARBOR_ROAD",
+      "A_RIDGE_ROAD"
+    ],
+    "screen_ids": [
+      "S_GARAGE",
+      "S_MAP_SELECT",
+      "S_HUD",
+      "S_PAUSE",
+      "S_RESULT"
+    ],
+    "stage": "assembly",
+    "design_revision": 11,
+    "depends_on": [
+      "V11-02"
+    ],
+    "owner": "root",
+    "inputs": [
+      "MAP_EXPANSION_V11.md"
+    ],
+    "outputs": [
+      "project/main.gd",
+      "project/presentation/world.gd",
+      "project/presentation/minimap.gd",
+      "project/mechanic/race.gd"
+    ],
+    "acceptance": [
+      "物理、规则、路面、小地图共享同一活动Course",
+      "加载完碰撞再放车；切换失败恢复原图与车库状态",
+      "旧道路/车辆/箱子/投射物/特效完全清理；连续切换10轮无持续增长"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "evidence/maps_v11/20261026_185707_247656/report.json",
+      "evidence/maps_v11/20261026_195307_250752/report.json"
+    ]
+  },
+  {
+    "id": "V11-04",
+    "title": "分地图存档迁移与公开契约",
+    "parent_id": "V11",
+    "chapter_id": "C1_MAP/C3_MAP",
+    "beat_ids": [
+      "select_map",
+      "save_record"
+    ],
+    "requirement_ids": [
+      "MAP-R1",
+      "MAP-R8",
+      "MAP-R10"
+    ],
+    "asset_ids": [],
+    "screen_ids": [
+      "S_GARAGE",
+      "S_MAP_SELECT",
+      "S_HUD",
+      "S_PAUSE",
+      "S_RESULT"
+    ],
+    "stage": "mechanic",
+    "design_revision": 11,
+    "depends_on": [
+      "V11-03"
+    ],
+    "owner": "root",
+    "inputs": [
+      "MAP_EXPANSION_V11.md",
+      "mechanic_contract.json",
+      "project/tests/test_profile.gd"
+    ],
+    "outputs": [
+      "project/mechanic/race.gd",
+      "mechanic_contract.json",
+      "project/tests/test_profile.gd",
+      "project/tests/test_maps_profile.gd"
+    ],
+    "acceptance": [
+      "发布地图目录、活动ID、圈数、select_track与track_changed契约后才接UI",
+      "旧best仅迁移到sunny_coast；不覆盖已有新版本成绩；重复加载保持幂等",
+      "六个地图模式组合独立计分；保留车型/装束/设置",
+      "损坏数值、未知ID、保存失败有回退；测试只用临时存档"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "evidence/maps_v11/20261026_195942_247100/tests.json",
+      "mechanic_contract.json"
+    ]
+  },
+  {
+    "id": "V11-05",
+    "title": "选图菜单、小地图及结算绑定",
+    "parent_id": "V11",
+    "chapter_id": "C1_MAP/C2_HARBOR/C2_RIDGE/C3_MAP",
+    "beat_ids": [
+      "select_map",
+      "race_hud",
+      "pause",
+      "results"
+    ],
+    "requirement_ids": [
+      "MAP-R1",
+      "MAP-R4",
+      "MAP-R8",
+      "MAP-R9"
+    ],
+    "asset_ids": [
+      "A_MAP_CARDS"
+    ],
+    "screen_ids": [
+      "S_GARAGE",
+      "S_MAP_SELECT",
+      "S_HUD",
+      "S_PAUSE",
+      "S_RESULT"
+    ],
+    "stage": "ui",
+    "design_revision": 11,
+    "depends_on": [
+      "V11-04"
+    ],
+    "owner": "root",
+    "inputs": [
+      "MAP_EXPANSION_V11.md",
+      "layout_maps_v11.json",
+      "layout.json",
+      "mechanic_contract.json"
+    ],
+    "outputs": [
+      "project/presentation/hud.gd",
+      "project/presentation/track_picker.gd",
+      "project/presentation/minimap.gd",
+      "layout_maps_v11.json",
+      "ui_binding_manifest.json"
+    ],
+    "acceptance": [
+      "按已发布契约绑定三卡选择、焦点、取消与确认，比赛中不能换图",
+      "起终门/暂停/结果/缩略图使用本图内容，小地图等比例适应包围盒",
+      "1280x720和1600x900无遮挡，圈数/成绩由规则快照提供"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "evidence/maps_v11/20261026_195307_250752/report.json",
+      "evidence/maps_v11/20261026_194957_243144/report.json",
+      "evidence/maps_v11/final_review.json"
+    ]
+  },
+  {
+    "id": "V11-06",
+    "title": "海湾港区完整路线白盒",
+    "parent_id": "V11",
+    "chapter_id": "C2_HARBOR",
+    "beat_ids": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "requirement_ids": [
+      "MAP-R2",
+      "MAP-R5",
+      "MAP-R6"
+    ],
+    "asset_ids": [
+      "A_SHARED",
+      "A_HARBOR_ROAD",
+      "A_HARBOR_SET"
+    ],
+    "screen_ids": [
+      "S_HUD",
+      "S_PAUSE"
+    ],
+    "stage": "assembly",
+    "design_revision": 11,
+    "depends_on": [
+      "V11-03"
+    ],
+    "owner": "root",
+    "inputs": [
+      "MAP_EXPANSION_V11.md"
+    ],
+    "outputs": [
+      "project/mechanic/tracks/catalog.gd",
+      "project/presentation/environments/map_environment.gd",
+      "evidence/maps_v11/matrix_20261026_190439/summary.json"
+    ],
+    "acceptance": [
+      "落实六路段、15m路宽、检查点、安全复位点与道具箱配置",
+      "缩窄跳台且落区有缓冲；普通制动转向能通过全部弯道",
+      "三车型逐段原生驾驶检查完成；圈时和关键曲率记录后调整目标"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "evidence/maps_v11/matrix_20261026_190439/summary.json",
+      "evidence/maps_v11/20261026_191707_248080/report.json"
+    ]
+  },
+  {
+    "id": "V11-07",
+    "title": "AI弯前制动与窄路通行校准",
+    "parent_id": "V11",
+    "chapter_id": "C2_HARBOR/C2_RIDGE",
+    "beat_ids": [
+      "ai_follow",
+      "braking",
+      "reset"
+    ],
+    "requirement_ids": [
+      "MAP-R2",
+      "MAP-R3",
+      "MAP-R6",
+      "MAP-R7",
+      "MAP-R10"
+    ],
+    "asset_ids": [
+      "A_SHARED",
+      "A_HARBOR_ROAD",
+      "A_RIDGE_ROAD"
+    ],
+    "screen_ids": [],
+    "stage": "mechanic",
+    "design_revision": 11,
+    "depends_on": [
+      "V11-06"
+    ],
+    "owner": "root",
+    "inputs": [
+      "MAP_EXPANSION_V11.md"
+    ],
+    "outputs": [
+      "project/mechanic/race.gd",
+      "project/tests/maps_simulation.gd",
+      "maps_batch.py",
+      "evidence/maps_v11/matrix_20261026_190439"
+    ],
+    "acceptance": [
+      "AI前视距离按米与速度计算，弯前限速与刹车距离可配置",
+      "AI线路偏移在路宽内，发卡临近分段不跳到回头路线",
+      "同样车辆规则下海岸与港区可稳定完赛；报告卡住和复位次数"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "evidence/maps_v11/matrix_20261026_190439/summary.json"
+    ]
+  },
+  {
+    "id": "V11-08",
+    "title": "港区双模式可玩闭环验证",
+    "parent_id": "V11",
+    "chapter_id": "C1_MAP/C2_HARBOR/C3_MAP",
+    "beat_ids": [
+      "select_map",
+      "H1-H6",
+      "pause",
+      "results",
+      "restart"
+    ],
+    "requirement_ids": [
+      "MAP-R1",
+      "MAP-R2",
+      "MAP-R4",
+      "MAP-R5",
+      "MAP-R6",
+      "MAP-R7",
+      "MAP-R8"
+    ],
+    "asset_ids": [
+      "A_SHARED",
+      "A_HARBOR_ROAD"
+    ],
+    "screen_ids": [
+      "S_GARAGE",
+      "S_MAP_SELECT",
+      "S_HUD",
+      "S_PAUSE",
+      "S_RESULT"
+    ],
+    "stage": "validation",
+    "design_revision": 11,
+    "depends_on": [
+      "V11-04",
+      "V11-05",
+      "V11-07"
+    ],
+    "owner": "root",
+    "inputs": [
+      "MAP_EXPANSION_V11.md"
+    ],
+    "outputs": [
+      "evidence/maps_v11/20261026_191707_248080/report.json",
+      "QA_MAPS_V11.md"
+    ],
+    "acceptance": [
+      "选图到结算和重赛走通；两模式三圈且三车可驾驶",
+      "S弯、跳台空落喷、R、倒车漏门、暂停与存档有原生证据",
+      "审看录像并记录中级难度反馈，再细化山岭曲线"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "evidence/maps_v11/20261026_191707_248080/report.json",
+      "evidence/maps-v11-racing.mp4",
+      "evidence/maps_v11/20261026_194505_234056/report.json"
+    ]
+  },
+  {
+    "id": "V11-09",
+    "title": "山岭发卡路线白盒与驾驶校准",
+    "parent_id": "V11",
+    "chapter_id": "C2_RIDGE",
+    "beat_ids": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ],
+    "requirement_ids": [
+      "MAP-R3",
+      "MAP-R4",
+      "MAP-R5",
+      "MAP-R6",
+      "MAP-R7"
+    ],
+    "asset_ids": [
+      "A_SHARED",
+      "A_RIDGE_ROAD",
+      "A_RIDGE_SET"
+    ],
+    "screen_ids": [
+      "S_HUD",
+      "S_PAUSE"
+    ],
+    "stage": "assembly",
+    "design_revision": 11,
+    "depends_on": [
+      "V11-08"
+    ],
+    "owner": "root",
+    "inputs": [
+      "MAP_EXPANSION_V11.md"
+    ],
+    "outputs": [
+      "project/mechanic/tracks/catalog.gd",
+      "project/presentation/environments/map_environment.gd",
+      "evidence/maps_v11/matrix_20261026_190439/summary.json"
+    ],
+    "acceptance": [
+      "根据港区反馈确定样条点、12m路宽、两组发卡及安全落区",
+      "三车不用喷气连招也能制动过弯；AI弯前减速且不依赖复位",
+      "发卡偏移网格/相邻路段/空中过门专项通过；保留逐段与完整比赛证据"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "evidence/maps_v11/matrix_20261026_190439/summary.json",
+      "evidence/maps_v11/20261026_191707_248080/report.json",
+      "evidence/maps_v11/20261026_194844_223068/report.json"
+    ]
+  },
+  {
+    "id": "V11-10",
+    "title": "港区与山岭场景资产制作和独立QA",
+    "parent_id": "V11",
+    "chapter_id": "C2_HARBOR/C2_RIDGE",
+    "beat_ids": [
+      "H2",
+      "H3",
+      "H4",
+      "A2",
+      "A3",
+      "A5",
+      "A6"
+    ],
+    "requirement_ids": [
+      "MAP-R2",
+      "MAP-R3",
+      "MAP-R9"
+    ],
+    "asset_ids": [
+      "A_HARBOR_SET",
+      "A_RIDGE_SET"
+    ],
+    "screen_ids": [],
+    "stage": "asset",
+    "design_revision": 11,
+    "depends_on": [
+      "V11-09"
+    ],
+    "owner": "root",
+    "inputs": [
+      "MAP_EXPANSION_V11.md"
+    ],
+    "outputs": [
+      "project/assets/imported/maps_v11",
+      "prepare_maps_assets.py",
+      "ASSET_PROVENANCE.json",
+      "evidence/maps_v11/20261026_192321_235936/review.json"
+    ],
+    "acceptance": [
+      "复用资产与新增仓库/集装箱/起重机/码头灯/山壁/树组/观景台/门架来源明确",
+      "正式资产的朝向、尺度、贴图、多角度及风格QA通过",
+      "生成或授权来源及加工记录留档；未完成占位明确列出"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "evidence/maps_v11/20261026_192321_235936/review.json",
+      "ASSET_PROVENANCE.json"
+    ]
+  },
+  {
+    "id": "V11-11",
+    "title": "两图美术装配与实机缩略图",
+    "parent_id": "V11",
+    "chapter_id": "C1_MAP/C2_HARBOR/C2_RIDGE/C3_MAP",
+    "beat_ids": [
+      "landmarks",
+      "readability",
+      "map_cards"
+    ],
+    "requirement_ids": [
+      "MAP-R1",
+      "MAP-R2",
+      "MAP-R3",
+      "MAP-R5",
+      "MAP-R9",
+      "MAP-R10"
+    ],
+    "asset_ids": [
+      "A_SHARED",
+      "A_HARBOR_SET",
+      "A_RIDGE_SET",
+      "A_MAP_CARDS"
+    ],
+    "screen_ids": [
+      "S_GARAGE",
+      "S_MAP_SELECT",
+      "S_HUD",
+      "S_PAUSE",
+      "S_RESULT"
+    ],
+    "stage": "assembly",
+    "design_revision": 11,
+    "depends_on": [
+      "V11-10"
+    ],
+    "owner": "root",
+    "inputs": [
+      "MAP_EXPANSION_V11.md"
+    ],
+    "outputs": [
+      "project/presentation/environments",
+      "project/assets/maps_v11.json",
+      "evidence/maps_v11/final_review.json"
+    ],
+    "acceptance": [
+      "替换环境占位并检查弯前视线、相机净空与碰撞",
+      "缩略图来自最终实机，路线轮廓来自同一地图定义",
+      "六车、喷气、低动态及两分辨率可读性与性能检查留档"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "evidence/maps_v11/final_review.json",
+      "evidence/maps_v11/20261026_193351_234176/report.json"
+    ]
+  },
+  {
+    "id": "V11-12",
+    "title": "三图完整回归、原生录像与难度复查",
+    "parent_id": "V11",
+    "chapter_id": "C1_MAP/C2_HARBOR/C2_RIDGE/C3_MAP",
+    "beat_ids": [
+      "full_race",
+      "edge_cases",
+      "difficulty_review"
+    ],
+    "requirement_ids": [
+      "MAP-R1",
+      "MAP-R2",
+      "MAP-R3",
+      "MAP-R4",
+      "MAP-R5",
+      "MAP-R6",
+      "MAP-R7",
+      "MAP-R8",
+      "MAP-R9",
+      "MAP-R10"
+    ],
+    "asset_ids": [
+      "A_SHARED",
+      "A_HARBOR_ROAD",
+      "A_RIDGE_ROAD",
+      "A_HARBOR_SET",
+      "A_RIDGE_SET",
+      "A_MAP_CARDS"
+    ],
+    "screen_ids": [
+      "S_GARAGE",
+      "S_MAP_SELECT",
+      "S_HUD",
+      "S_PAUSE",
+      "S_RESULT"
+    ],
+    "stage": "validation",
+    "design_revision": 11,
+    "depends_on": [
+      "V11-11"
+    ],
+    "owner": "root",
+    "inputs": [
+      "MAP_EXPANSION_V11.md"
+    ],
+    "outputs": [
+      "QA_MAPS_V11.md",
+      "evidence/maps_v11",
+      "evidence/maps-v11-racing.mp4",
+      "evidence/maps-v11-techniques.mp4"
+    ],
+    "acceptance": [
+      "3图x2模式x3车型共18次三圈完赛；新增两图双模式均保留原生录像",
+      "每新增图每模式5个种子5名AI全完赛，QA允许玩家冲线后继续跑AI",
+      "每图96项边界碰撞与贴墙、计圈/复位/隔壁路段专项通过",
+      "旧存档迁移、十轮切图、当前自动测试与车辆碰撞专项通过",
+      "性能按同机同设置记录中位/P95帧时；自动操作与人工难度结论分开；问题修复后重验"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "evidence/maps_v11/20261026_195942_247100/tests.json",
+      "evidence/maps_v11/matrix_20261026_190439/summary.json",
+      "evidence/maps_v11/20261026_185707_247656/report.json",
+      "evidence/maps_v11/collision_regression.json",
+      "evidence/maps_v11/20261026_193351_234176/report.json"
+    ]
+  },
+  {
+    "id": "V11-13",
+    "title": "多地图工程和验证材料交付",
+    "parent_id": "V11",
+    "chapter_id": "C1_MAP/C2_HARBOR/C2_RIDGE/C3_MAP",
+    "beat_ids": [
+      "delivery"
+    ],
+    "requirement_ids": [
+      "MAP-R1",
+      "MAP-R2",
+      "MAP-R3",
+      "MAP-R4",
+      "MAP-R5",
+      "MAP-R6",
+      "MAP-R7",
+      "MAP-R8",
+      "MAP-R9",
+      "MAP-R10"
+    ],
+    "asset_ids": [
+      "A_SHARED",
+      "A_HARBOR_ROAD",
+      "A_RIDGE_ROAD"
+    ],
+    "screen_ids": [
+      "S_GARAGE",
+      "S_MAP_SELECT",
+      "S_HUD",
+      "S_PAUSE",
+      "S_RESULT"
+    ],
+    "stage": "delivery",
+    "design_revision": 11,
+    "depends_on": [
+      "V11-12"
+    ],
+    "owner": "root",
+    "inputs": [
+      "MAP_EXPANSION_V11.md"
+    ],
+    "outputs": [
+      "README.md",
+      "MAPS_V11.md",
+      "QA_MAPS_V11.md",
+      "delivery_maps_v11.json",
+      "start_portable.cmd",
+      "sunny_drift_maps_v11_source.zip"
+    ],
+    "acceptance": [
+      "源码包与当前project一致，可启动并从三图选图完成比赛",
+      "文档包含已实现范围、实际参数、QA证据、来源和未完成项",
+      "只有最终集成及完整验收通过才标记多地图交付完成"
+    ],
+    "status": "done",
+    "blocker": "",
+    "evidence": [
+      "evidence/maps_v11/package_check.json",
+      "delivery_maps_v11.json",
+      "sunny_drift_maps_v11_source.zip"
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "schema_version": "gamefactory3a.context_used.v1",
+  "engine_api": "agent_skills/engine_context/godot_api.md",
+  "examples": [
+    {
+      "path": "engine_adapters/godot/examples/SolarRally3D/main.tscn",
+      "role": "mechanic_example",
+      "purpose": [
+        "module_structure"
+      ]
+    },
+    {
+      "path": "engine_adapters/godot/examples/ArenaDuel3D/mechanic/runtime_adapter.gd",
+      "role": "mechanic_example",
+      "purpose": [
+        "public_adapter_design"
+      ]
+    },
+    {
+      "path": "engine_adapters/godot/examples/SolarRally3D/scripts/smoke.gd",
+      "role": "mechanic_example",
+      "purpose": [
+        "native_test_patterns"
+      ]
+    }
+  ],
+  "delivery": "Windows native; no browser delivery requested",
+  "maps_v11": {
+    "engine_api": "agent_skills/engine_context/godot_api.md",
+    "example_reference": "engine_adapters/godot/examples/SolarRally3D/README.md",
+    "purpose": [
+      "native_test_patterns",
+      "runtime_lifecycle"
+    ],
+    "asset_routes": [
+      "operators.gen_3d_object.Gen3DObjectOperator spec",
+      "Kenney Nature Kit CC0 via native import_prop"
+    ],
+    "task": "Extend the existing sunny_drift playable; no engine adapter changes"
+  }
+}

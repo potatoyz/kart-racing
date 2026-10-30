@@ -1,0 +1,140 @@
+{
+  "revision": 6,
+  "provider": "mivo",
+  "image_model": "gpt-image-2",
+  "mesh_model": "P1",
+  "style": "Sunny coastal arcade racing, polished stylized 3D, turquoise, coral, butter yellow, ivory; original designs, no brand logos.",
+  "assets": [
+    {
+      "id": "car_0",
+      "kind": "mesh",
+      "triangles": 8000,
+      "length": 3.5,
+      "image_reviewed": true,
+      "prompt": "A single original stylized open-cockpit racing roadster for a polished sunny coastal arcade racing game. Turquoise body, ivory central racing stripe, dark navy rubber tires, silver wheel hubs, sculpted aerodynamic rounded body panels, compact rear wing, slim warm white headlights, red tail lamps. Four distinct tires, wheelbase and proportions like a compact sports kart, a deep EMPTY SINGLE CENTRAL driver seat behind a low windscreen, accessible cockpit large enough for a helmeted racer. Front bonnet longer than rear deck, attractive readable silhouette, high-quality painted-metal and rubber textures. No person, no driver, no roof. Three-quarter front view with the nose towards lower left, entire car centered with 12 percent margin. Isolated on pure white, soft even studio lighting, no floor, no platform, no shadow, no text, no logos. Single object, no collage, no additional parts.",
+      "image_review_notes": "Reviewed complete silhouette, isolated subject / menu-safe composition; no text or logo artifacts."
+    },
+    {
+      "id": "driver_0",
+      "kind": "mesh",
+      "triangles": 6500,
+      "height": 1.22,
+      "image_reviewed": true,
+      "prompt": "One original stylized helmeted racing driver for a sunny coastal arcade racing game, fully visible in a SEATED DRIVING POSE with bent knees and arms reaching forward to hold an imaginary steering wheel, hands separated, boots forward. No chair, no steering wheel, no car, no platform. Compact friendly adult proportions, slightly oversized round turquoise full-face motorsport helmet with navy mirrored visor and ivory center stripe. Ivory quilted racing suit with turquoise shoulder panels and knee patches, navy gloves and boots. Refined stylized 3D game character, clean tailored seams and fabric detail, solid complete limbs. Three-quarter front view, entire body including boots and hands centered with generous white margins, evenly lit on pure white background, no shadows, no text, no logo, no extra person.",
+      "image_review_notes": "Reviewed complete silhouette, isolated subject / menu-safe composition; no text or logo artifacts."
+    },
+    {
+      "id": "menu_coast",
+      "kind": "image",
+      "ratio": "16:9",
+      "prompt": "Use case: stylized-concept. A premium sunny coastal arcade racing game main menu background illustration, wide 16:9 cinematic composition. Bright turquoise ocean beyond a curving elevated coastal race circuit, white Mediterranean seaside houses with coral roofs, a graceful striped lighthouse on the distant right headland, lush palm fronds framing the top corners, clear sky with soft cumulus clouds. Warm late-morning sunlight, rich turquoise and cerulean with ivory and coral accents, polished stylized 3D game key art, exquisite clean materials. The center and lower middle foreground is an EMPTY broad clean pale stone seaside terrace reserved for overlaying an interactive 3D vehicle showcase. Left upper quarter is calm blue sky reserved for a large game title. Buildings and busy detail kept near horizon and outer edges. No car, no racer, no people, no words, no logos, no interface, no buttons, no watermark.",
+      "image_reviewed": true,
+      "image_review_notes": "Reviewed complete silhouette, isolated subject / menu-safe composition; no text or logo artifacts."
+    },
+    {
+      "id": "track_card",
+      "kind": "image",
+      "ratio": "3:2",
+      "prompt": "A beautiful polished stylized 3D coastal race circuit landscape for a sunny arcade racing game's track selection card. A sweeping asphalt S bend with cream and coral rumble strips, bright turquoise ocean, white cliffs, mint palm trees, Mediterranean pastel beach houses and a small striped lighthouse. View from an elevated trackside camera, strong depth and welcoming warm sunlight, saturated but tasteful cerulean turquoise ivory and coral palette. Clear racing road occupying lower half, coherent wide 3:2 composition, premium game environment art. No cars, no people, no text, no logo, no watermark, no UI.",
+      "image_reviewed": true,
+      "image_review_notes": "Reviewed complete silhouette, isolated subject / menu-safe composition; no text or logo artifacts."
+    },
+    {
+      "id": "car_1",
+      "kind": "mesh",
+      "triangles": 8000,
+      "length": 3.65,
+      "image_reviewed": true,
+      "prompt": "One original stylized open-cockpit racing sports kart, coral orange body with two narrow ivory stripes, a long sharp low front bonnet, broad rear wing, sporty side air intakes, dark navy tires and silver multispoke rims. Four distinct tires. Empty SINGLE CENTRAL cockpit and deep driver seat, behind a tiny low wind deflector. Compact sportscar proportions, sporty and friendly polished 3D arcade racing design, rounded panel edges, clean painted metal, rubber and carbon accents, warm white front headlights and red rear lights. No roof, no driver, no people. Three-quarter FRONT view with nose towards lower left, full vehicle visible, isolated centered on pure white background, even studio light, no floor, no shadow, no pedestal, no text, no brands, no collage.",
+      "image_review_notes": "Reviewed complete silhouette, isolated subject / menu-safe composition; no text or logo artifacts."
+    },
+    {
+      "id": "car_2",
+      "kind": "mesh",
+      "triangles": 8000,
+      "length": 3.25,
+      "image_reviewed": true,
+      "prompt": "One original stylized compact open-cockpit beach rally roadster for a sunny polished arcade racing game. Butter-yellow sculpted body with turquoise side accents and ivory bonnet stripe, rounded short nose, round warm headlights, flared wheel arches, four distinct chunky navy tires and polished silver wheels, short rear deck with red tail lights. Empty SINGLE CENTRAL driver cockpit with low wind deflector, no roof and no driver. Agile small lightweight sports kart proportions, sculpted painted metal panels with rounded edges, charming but refined high quality 3D game asset. Three-quarter FRONT view with nose pointing lower left, whole vehicle centered with 12 percent margins, pure white background, even studio light, no floor, no platform, no shadows, no text, no logo, no collage.",
+      "image_review_notes": "Complete silhouette, clear four wheels / coherent seated driver pose and costume."
+    },
+    {
+      "id": "driver_1",
+      "kind": "mesh",
+      "triangles": 6500,
+      "height": 1.22,
+      "image_reviewed": true,
+      "reference": "driver_0",
+      "prompt": "Create one matching stylized seated racing driver, keeping the reference character's exact seated driving pose, full-body framing, body proportions, gloves and boots placement. Replace the outfit with coral pink quilted racing suit, ivory chest and shoulders, coral orange motorsport helmet with ivory stripe and dark navy mirrored visor. Add a short ivory scarf snug around the neck, no long loose pieces. Full body including both boots and hands visible, arms forward gripping an imaginary steering wheel, no car or chair or steering wheel. Original polished stylized 3D arcade game character, single subject isolated on white background, no shadow, no floor, no text, no logos, no extra figures.",
+      "image_review_notes": "Complete silhouette, clear four wheels / coherent seated driver pose and costume."
+    },
+    {
+      "id": "driver_2",
+      "kind": "mesh",
+      "triangles": 6500,
+      "height": 1.33,
+      "image_reviewed": true,
+      "reference": "driver_0",
+      "prompt": "Create one matching stylized seated racing driver, keeping the reference character's seated driving pose, full-body framing, body proportions, gloves and boots placement. Outfit: lavender racing suit with ivory chest and lilac shoulder padding, navy gloves and boots, lavender full-face helmet with navy mirrored visor and two short rounded rabbit ears attached to its top, small pale gold star badge on chest without any lettering. Friendly original polished stylized 3D arcade game character. Entire seated body visible including ears boots and hands, arms forward holding imaginary steering wheel. No car, no chair, no actual steering wheel, no floor, no shadows, pure white background, one subject, no text, no logo.",
+      "parameters": {
+        "background": "opaque"
+      },
+      "previous_failed_task": {
+        "id": "6aded0852c42a6bafa14d2cd",
+        "reason": "Provider chose unsupported transparent background; retry explicitly opaque."
+      },
+      "image_review_notes": "Reviewed full silhouette, clean white background, coherent stylized coastal materials."
+    },
+    {
+      "id": "palm",
+      "kind": "mesh",
+      "triangles": 2200,
+      "height": 7.2,
+      "image_reviewed": true,
+      "prompt": "A single elegant stylized tropical coconut palm tree game asset, slightly curved tapered sandy brown trunk with natural ring texture, crown of seven lush large curved emerald and mint green fronds with clearly shaped leaves, three small coconuts. Refined hand-painted 3D art for a cheerful premium coastal racing game, natural silhouette, full tree trunk to leaf tips visible, centered and isolated on pure white background with generous margins. Flat even illumination, no ground, no grass base, no pot, no shadow, no people, no text, no collage.",
+      "parameters": {
+        "background": "opaque"
+      },
+      "previous_failed_task": {
+        "id": "6adecfaf349ea7894d14c828",
+        "reason": "Provider chose unsupported transparent background; retry explicitly opaque."
+      },
+      "image_review_notes": "Reviewed full silhouette, clean white background, coherent stylized coastal materials."
+    },
+    {
+      "id": "beach_hut",
+      "kind": "mesh",
+      "triangles": 4000,
+      "height": 6.2,
+      "image_reviewed": true,
+      "prompt": "One small Mediterranean coastal beach cafe building as an isolated stylized 3D game asset, ivory stucco walls, coral terracotta pitched tiled roof, turquoise shutters and recessed door, short striped cream and turquoise fabric awning, timber porch railing, charming small flower boxes. One complete compact two-storey structure, clean detailed stylized materials and rounded corners, polished sunny arcade racing game environment art. Three-quarter view showing front door and side wall, entire object visible with margins. No writing, no signs with letters, no people, no vehicles, no floor, no base slab, no shadow, isolated pure white background, no collage.",
+      "parameters": {
+        "background": "opaque"
+      },
+      "image_review_notes": "Reviewed full silhouette, clean white background, coherent stylized coastal materials."
+    },
+    {
+      "id": "lighthouse",
+      "kind": "mesh",
+      "triangles": 4500,
+      "height": 15.0,
+      "image_reviewed": true,
+      "prompt": "One elegant original coastal lighthouse as a polished stylized 3D game asset. Tapered ivory tower with broad coral red horizontal bands, dark navy lantern room and small copper dome, circular ivory balcony rail near top, tiny turquoise entry door at base, stone foundation integrated into the tower footprint. Cheerful Mediterranean seaside arcade racing aesthetic, clean readable silhouette, refined painted material details. Entire tower from base to tip visible with generous margins, three-quarter view, evenly lit isolated on pure white background, no landscape, no ground plane, no shadows, no people, no text, no logos, no collage.",
+      "parameters": {
+        "background": "opaque"
+      },
+      "image_review_notes": "Reviewed full silhouette, clean white background, coherent stylized coastal materials."
+    },
+    {
+      "id": "coastal_rocks",
+      "kind": "mesh",
+      "triangles": 1800,
+      "height": 3.8,
+      "image_reviewed": true,
+      "prompt": "One compact cluster of three connected coastal limestone rocks as a polished stylized 3D game environment prop. Rounded sculptural pale warm ivory and beige weathered rocks with gentle stratification, muted mint moss on top surfaces. Strong organic asymmetrical silhouette, suitable beside a sunny Mediterranean racing track, refined stylized hand-painted texture, no harsh low-poly facets. Entire compact cluster visible, centered, three-quarter view, isolated on pure white background, no floor plane, no separate scenery, no water, no shadow, no people, no text, no collage.",
+      "parameters": {
+        "background": "opaque"
+      },
+      "image_review_notes": "Reviewed full silhouette, clean white background, coherent stylized coastal materials."
+    }
+  ]
+}

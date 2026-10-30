@@ -1,0 +1,563 @@
+[
+  {
+    "item_id": "R1",
+    "chapter_id": "C1-C3",
+    "check": "requirement design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "R2",
+    "chapter_id": "C1-C3",
+    "check": "requirement design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "R3",
+    "chapter_id": "C1-C3",
+    "check": "requirement design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "R4",
+    "chapter_id": "C1-C3",
+    "check": "requirement design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "R5",
+    "chapter_id": "C1-C3",
+    "check": "requirement design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "R6",
+    "chapter_id": "C1-C3",
+    "check": "requirement design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "R7",
+    "chapter_id": "C1-C3",
+    "check": "requirement design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "R8",
+    "chapter_id": "C1-C3",
+    "check": "requirement design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "R9",
+    "chapter_id": "C1-C3",
+    "check": "requirement design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "C1",
+    "chapter_id": "C1-C3",
+    "check": "chapter design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "C2",
+    "chapter_id": "C1-C3",
+    "check": "chapter design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "C3",
+    "chapter_id": "C1-C3",
+    "check": "chapter design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "A_TRACK",
+    "chapter_id": "C1-C3",
+    "check": "asset design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "Production replacement / subjective QA pending; see QA.md",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "A_CARS",
+    "chapter_id": "C1-C3",
+    "check": "asset design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "Production replacement / subjective QA pending; see QA.md",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "A_DRIVER",
+    "chapter_id": "C1-C3",
+    "check": "asset design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "Production replacement / subjective QA pending; see QA.md",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "A_ITEM",
+    "chapter_id": "C1-C3",
+    "check": "asset design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "Production replacement / subjective QA pending; see QA.md",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "A_FX",
+    "chapter_id": "C1-C3",
+    "check": "asset design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "Production replacement / subjective QA pending; see QA.md",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "A_AUDIO",
+    "chapter_id": "C1-C3",
+    "check": "asset design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "Production replacement / subjective QA pending; see QA.md",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "S_GARAGE",
+    "chapter_id": "C1-C3",
+    "check": "screen design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "S_HUD",
+    "chapter_id": "C1-C3",
+    "check": "screen design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "S_PAUSE",
+    "chapter_id": "C1-C3",
+    "check": "screen design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "S_RESULT",
+    "chapter_id": "C1-C3",
+    "check": "screen design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "T1",
+    "chapter_id": "C1-C3",
+    "check": "task design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "T2",
+    "chapter_id": "C1-C3",
+    "check": "task design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "T3",
+    "chapter_id": "C1-C3",
+    "check": "task design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "T4",
+    "chapter_id": "C1-C3",
+    "check": "task design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "T5",
+    "chapter_id": "C1-C3",
+    "check": "task design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "Production replacement / subjective QA pending; see QA.md",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "T6",
+    "chapter_id": "C1-C3",
+    "check": "task design and evidence coverage",
+    "status": "confirmed",
+    "reference": [
+      "DESIGN.md",
+      "QA.md",
+      "tasks.json"
+    ],
+    "issue": "Production replacement / subjective QA pending; see QA.md",
+    "implementation_status": "prototype"
+  },
+  {
+    "item_id": "V2-1",
+    "chapter_id": "C2",
+    "check": "DRIVING_V2.md acceptance",
+    "status": "confirmed",
+    "reference": [
+      "QA_DRIVING_V2.md",
+      "evidence/skills_qa/report.json",
+      "evidence/qa/report.json"
+    ],
+    "issue": "Human handling preference still subjective",
+    "implementation_status": "implemented and automatically validated"
+  },
+  {
+    "item_id": "V2-2",
+    "chapter_id": "C2",
+    "check": "DRIVING_V2.md acceptance",
+    "status": "confirmed",
+    "reference": [
+      "QA_DRIVING_V2.md",
+      "evidence/skills_qa/report.json",
+      "evidence/qa/report.json"
+    ],
+    "issue": "Human handling preference still subjective",
+    "implementation_status": "implemented and automatically validated"
+  },
+  {
+    "item_id": "V2-3",
+    "chapter_id": "C2",
+    "check": "DRIVING_V2.md acceptance",
+    "status": "confirmed",
+    "reference": [
+      "QA_DRIVING_V2.md",
+      "evidence/skills_qa/report.json",
+      "evidence/qa/report.json"
+    ],
+    "issue": "Human handling preference still subjective",
+    "implementation_status": "implemented and automatically validated"
+  },
+  {
+    "item_id": "V2-4",
+    "chapter_id": "C2",
+    "check": "DRIVING_V2.md acceptance",
+    "status": "confirmed",
+    "reference": [
+      "QA_DRIVING_V2.md",
+      "evidence/skills_qa/report.json",
+      "evidence/qa/report.json"
+    ],
+    "issue": "Human handling preference still subjective",
+    "implementation_status": "implemented and automatically validated"
+  },
+  {
+    "item_id": "V2-5",
+    "chapter_id": "C2",
+    "check": "DRIVING_V2.md acceptance",
+    "status": "confirmed",
+    "reference": [
+      "QA_DRIVING_V2.md",
+      "evidence/skills_qa/report.json",
+      "evidence/qa/report.json"
+    ],
+    "issue": "Human handling preference still subjective",
+    "implementation_status": "implemented and automatically validated"
+  },
+  {
+    "item_id": "V3-1",
+    "chapter_id": "C2",
+    "check": "TRACK_V3.md acceptance",
+    "status": "confirmed",
+    "reference": [
+      "QA_TRACK_V3.md",
+      "evidence/boundary_qa/report.json"
+    ],
+    "issue": "",
+    "implementation_status": "implemented and automatically validated"
+  },
+  {
+    "item_id": "V3-2",
+    "chapter_id": "C2",
+    "check": "TRACK_V3.md acceptance",
+    "status": "confirmed",
+    "reference": [
+      "QA_TRACK_V3.md",
+      "evidence/boundary_qa/report.json"
+    ],
+    "issue": "",
+    "implementation_status": "implemented and automatically validated"
+  },
+  {
+    "item_id": "V3-3",
+    "chapter_id": "C2",
+    "check": "TRACK_V3.md acceptance",
+    "status": "confirmed",
+    "reference": [
+      "QA_TRACK_V3.md",
+      "evidence/boundary_qa/report.json"
+    ],
+    "issue": "",
+    "implementation_status": "implemented and automatically validated"
+  },
+  {
+    "item_id": "V3-4",
+    "chapter_id": "C2",
+    "check": "TRACK_V3.md acceptance",
+    "status": "confirmed",
+    "reference": [
+      "QA_TRACK_V3.md",
+      "evidence/boundary_qa/report.json"
+    ],
+    "issue": "",
+    "implementation_status": "implemented and automatically validated"
+  },
+  {
+    "item_id": "V4-1",
+    "chapter_id": "C2",
+    "check": "HANDLING_V4.md acceptance",
+    "status": "confirmed",
+    "reference": [
+      "QA_RESPONSE_V4.md",
+      "evidence/response-v4.json"
+    ],
+    "issue": "Final subjective feel requires user play",
+    "implementation_status": "implemented and automatically validated"
+  },
+  {
+    "item_id": "V4-2",
+    "chapter_id": "C2",
+    "check": "HANDLING_V4.md acceptance",
+    "status": "confirmed",
+    "reference": [
+      "QA_RESPONSE_V4.md",
+      "evidence/response-v4.json"
+    ],
+    "issue": "Final subjective feel requires user play",
+    "implementation_status": "implemented and automatically validated"
+  },
+  {
+    "item_id": "V4-3",
+    "chapter_id": "C2",
+    "check": "HANDLING_V4.md acceptance",
+    "status": "confirmed",
+    "reference": [
+      "QA_RESPONSE_V4.md",
+      "evidence/response-v4.json"
+    ],
+    "issue": "Final subjective feel requires user play",
+    "implementation_status": "implemented and automatically validated"
+  },
+  {
+    "item_id": "V4-4",
+    "chapter_id": "C2",
+    "check": "HANDLING_V4.md acceptance",
+    "status": "confirmed",
+    "reference": [
+      "QA_RESPONSE_V4.md",
+      "evidence/response-v4.json"
+    ],
+    "issue": "Final subjective feel requires user play",
+    "implementation_status": "implemented and automatically validated"
+  },
+  {
+    "item_id": "V5-1",
+    "chapter_id": "C2",
+    "check": "CAMERA_V5.md acceptance",
+    "status": "confirmed",
+    "reference": [
+      "QA_CAMERA_V5.md",
+      "evidence/camera_qa/camera-check.json"
+    ],
+    "issue": "",
+    "implementation_status": "implemented and verified with native frame trace"
+  },
+  {
+    "item_id": "V5-2",
+    "chapter_id": "C2",
+    "check": "CAMERA_V5.md acceptance",
+    "status": "confirmed",
+    "reference": [
+      "QA_CAMERA_V5.md",
+      "evidence/camera_qa/camera-check.json"
+    ],
+    "issue": "",
+    "implementation_status": "implemented and verified with native frame trace"
+  },
+  {
+    "item_id": "V5-3",
+    "chapter_id": "C2",
+    "check": "CAMERA_V5.md acceptance",
+    "status": "confirmed",
+    "reference": [
+      "QA_CAMERA_V5.md",
+      "evidence/camera_qa/camera-check.json"
+    ],
+    "issue": "",
+    "implementation_status": "implemented and verified with native frame trace"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "source_package": "sunny_drift_visual_v6_source.zip",
+  "bytes": 119966757,
+  "sha256": "be13cd67b96c255f5cd53fd6c0189a2ef841584519d1af318f60133da756be0e",
+  "native_tests": 10,
+  "full_race": true,
+  "ui": true,
+  "mesh_count": 10,
+  "unique_mesh_triangles": 52431,
+  "credentials_included": false
+}

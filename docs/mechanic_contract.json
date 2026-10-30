@@ -1,0 +1,136 @@
+{
+  "schema_version": "gamefactory3a.mechanic_contract.v1",
+  "contract_version": 4,
+  "gameplay_module": "SunnyDriftRace",
+  "public_api_paths": [
+    "project/mechanic/race.gd"
+  ],
+  "state": [
+    "phase",
+    "mode",
+    "paused",
+    "elapsed",
+    "countdown",
+    "cars",
+    "boxes",
+    "projectiles",
+    "selected_car",
+    "selected_outfit",
+    "preview_car",
+    "preview_outfit",
+    "best",
+    "reduced_motion",
+    "muted",
+    "message",
+    "car_catalog",
+    "track_catalog",
+    "selected_track_id",
+    "active_track_id",
+    "track_name",
+    "difficulty",
+    "lap_count",
+    "track",
+    "best_by_track"
+  ],
+  "events": [
+    "race_started",
+    "race_finished",
+    "race_reset",
+    "countdown",
+    "checkpoint",
+    "lap_completed",
+    "drift_started",
+    "nitro_ready",
+    "nitro_used",
+    "reset",
+    "item_picked",
+    "item_used",
+    "shield_blocked",
+    "hit_confirmed",
+    "equipped",
+    "garage_entered",
+    "pause_changed",
+    "drift_released",
+    "mini_ready",
+    "double_ready",
+    "small_boost",
+    "double_boost",
+    "air_ready",
+    "air_boost",
+    "landing_ready",
+    "landing_boost",
+    "track_changed"
+  ],
+  "commands": [
+    "preview_car",
+    "preview_outfit",
+    "equip",
+    "start",
+    "restart",
+    "garage",
+    "pause",
+    "nitro",
+    "item",
+    "reset",
+    "settings",
+    "apply_input",
+    "small_boost",
+    "select_track"
+  ],
+  "interface": {
+    "query": "snapshot() -> Dictionary",
+    "invoke": "command(action, data={}) -> Dictionary",
+    "subscribe": "event_emitted(event_name, payload)"
+  },
+  "car_state_v2": [
+    "travel",
+    "grounded",
+    "tilt",
+    "drift_phase",
+    "slip_angle",
+    "tricks"
+  ],
+  "tricks_state": [
+    "mini_window",
+    "mini_stock",
+    "double_window",
+    "double_wait",
+    "air_window",
+    "landing_window",
+    "airborne",
+    "air_time",
+    "combo",
+    "last_technique"
+  ],
+  "technique_event_payload": {
+    "racer": "racer id",
+    "combo": "confirmed combo label",
+    "slip": "optional signed angle in radians"
+  },
+  "presentation_pose": {
+    "visual_position": "interpolated global position for presentation only",
+    "visual_yaw": "interpolated global yaw for presentation only",
+    "physics_state": "position/yaw/travel remain authoritative physics state"
+  },
+  "presentation_extensions": {
+    "cars[].steer_input": "Read-only [-1,1] steering input shared by front-wheel and steering-wheel presentation. No physics change."
+  },
+  "maps_v11": {
+    "car_state": [
+      "lap"
+    ],
+    "select_track": {
+      "input": {
+        "track_id": "sunny_coast | harbor_loop | ridge_hairpins"
+      },
+      "allowed_phase": "garage",
+      "result": "ok=false preserves existing track on invalid ID or rejected loader"
+    },
+    "track_changed": "emitted after map assembly, racer reset and selection commit",
+    "best": "active map record keyed by speed/item",
+    "best_by_track": "all map records keyed by stable track ID and mode",
+    "track_geometry": "track.outline and track.bounds are read-only presentation data",
+    "profile_version": 2,
+    "migration": "legacy best belongs only to sunny_coast"
+  }
+}

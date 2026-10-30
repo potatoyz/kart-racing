@@ -1,0 +1,98 @@
+{
+  "version": 11,
+  "status": "complete",
+  "project": "project/project.godot",
+  "source_archive": "sunny_drift_maps_v11_source.zip",
+  "launch": "start_game.cmd",
+  "portable_launch": "start_portable.cmd",
+  "tracks": [
+    {
+      "id": "sunny_coast",
+      "name": "晴空海岸",
+      "difficulty": "初级",
+      "length_m": 682.6933,
+      "width_m": 18
+    },
+    {
+      "id": "harbor_loop",
+      "name": "海湾港区",
+      "difficulty": "中级",
+      "length_m": 1095.3357,
+      "width_m": 15
+    },
+    {
+      "id": "ridge_hairpins",
+      "name": "山岭发卡赛道",
+      "difficulty": "高级",
+      "length_m": 1410.1868,
+      "width_m": 12
+    }
+  ],
+  "validation": {
+    "tests": "evidence/maps_v11/20261026_195942_247100/tests.json",
+    "test_groups": 17,
+    "matrix": "evidence/maps_v11/matrix_20261026_190439/summary.json",
+    "races": 40,
+    "finished_vehicles": 240,
+    "automatic_resets": 0,
+    "boundaries": "evidence/maps_v11/20261026_185707_247656/report.json",
+    "boundary_sweeps": 288,
+    "wall_glides": 12,
+    "switch_cycles": 10,
+    "collisions": "evidence/maps_v11/collision_regression.json",
+    "collision_cases": 11,
+    "ui_720": "evidence/maps_v11/20261026_195307_250752/report.json",
+    "ui_900": "evidence/maps_v11/20261026_194957_243144/report.json",
+    "assets": "evidence/maps_v11/20261026_192321_235936/review.json",
+    "performance": "evidence/maps_v11/20261026_193351_234176/report.json",
+    "recording": "evidence/maps_v11/20261026_191707_248080/report.json",
+    "techniques": [
+      "evidence/maps_v11/20261026_194505_234056/report.json",
+      "evidence/maps_v11/20261026_194844_223068/report.json"
+    ],
+    "package_check": "evidence/maps_v11/package_check.json",
+    "final_review": "evidence/maps_v11/final_review.json"
+  },
+  "videos": [
+    "evidence/maps-v11-racing.mp4",
+    "evidence/maps-v11-techniques.mp4"
+  ],
+  "preview": "evidence/maps_v11/20261026_194957_243144/ridge_hairpins_picker.png",
+  "paid_generation_calls": 0,
+  "asset_sources": [
+    "local authored rigid specs",
+    "Kenney Nature Kit 2.1 CC0",
+    "existing Mivo assets reused"
+  ],
+  "scope_notes": [
+    "Windows Godot 4.5.1 source project; no engine binary or exported EXE",
+    "planar driving roads with local ramps; no grade roads/overpasses/unlock progression",
+    "native input plus autonomous validation; no human feel assessment"
+  ],
+  "recording_frames": 4384,
+  "video_decode_verified": true,
+  "package_project_files_verified": 351,
+  "changed_existing_sources": [
+    "project/main.gd",
+    "project/mechanic/course.gd",
+    "project/mechanic/race.gd",
+    "project/presentation/generated_assets.gd",
+    "project/presentation/hud.gd",
+    "project/presentation/minimap.gd",
+    "project/presentation/ramp.gd",
+    "project/presentation/track_surface.gd",
+    "project/presentation/vfx/race_vfx.gd",
+    "project/presentation/view.gd",
+    "project/presentation/world.gd"
+  ],
+  "new_source_roots": [
+    "project/mechanic/tracks",
+    "project/presentation/environments",
+    "project/presentation/track_picker.gd",
+    "project/tests/test_maps.gd",
+    "project/tests/test_maps_profile.gd",
+    "project/tests/maps_*.gd"
+  ],
+  "archive_bytes": 258883467,
+  "archive_sha256": "00123d99856a6349184b7f0b84e9c15257e7d6c800630a0828a911335cd5e35d"
+}

@@ -1,0 +1,53 @@
+{
+  "revision": 5,
+  "tests_passed": 9,
+  "modes": [
+    "speed",
+    "item"
+  ],
+  "camera_check": {
+    "ok": true,
+    "frames": 1114,
+    "transitions": [
+      {
+        "time": 1.48333333333333,
+        "stage": 0,
+        "yaw_step_degrees": 0.7064632291042242,
+        "relative_yaw_step_degrees": 1.7188733853924585,
+        "offset_step_metres": 0.09329609852507759,
+        "fov_step_degrees": 0.0
+      },
+      {
+        "time": 5.49999999999999,
+        "stage": 1,
+        "yaw_step_degrees": 0.7064632291042242,
+        "relative_yaw_step_degrees": 1.7188733853924585,
+        "offset_step_metres": 0.09329609852507759,
+        "fov_step_degrees": 0.0
+      },
+      {
+        "time": 9.48333333333338,
+        "stage": 2,
+        "yaw_step_degrees": 0.7197982807315534,
+        "relative_yaw_step_degrees": 1.718873385392484,
+        "offset_step_metres": 0.10384172956956718,
+        "fov_step_degrees": 0.0
+      }
+    ],
+    "failures": [],
+    "sampling": "fixed 60 render steps per simulated second, not hardware FPS"
+  },
+  "native_combos": [
+    "小喷",
+    "双喷",
+    "氮气大喷",
+    "CW 连喷",
+    "CWW 连喷",
+    "WCW 连喷",
+    "空中喷",
+    "空落连喷"
+  ],
+  "archive_bytes": 95125,
+  "archive_sha256": "8dfa73158d7aeff97c52b7dac1e85e4e7ccb5813b88d6bf2af0deb69a58bce2a",
+  "level": "camera transition verified; vehicle input response unchanged"
+}
